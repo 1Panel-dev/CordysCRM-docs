@@ -97,6 +97,7 @@
 
 ![商机跟进](../img/user_manual/follow-opportunity.png)
 
+<<<<<<< HEAD
 ## 商机看板
 
 !!! Abstract ""
@@ -126,3 +127,43 @@
     - 生成的图表支持全屏展示和下载保存
 
 ![商机分析](../img/user_manual/opportunity_Data_Analysis.png)
+=======
+## 合并客户
+!!! Abstract ""
+
+    在左侧菜单点击【客户】，进入客户管理页面。
+![客户合并](../img/user_manual/merge-customers1.png)
+
+!!! Abstract ""
+
+    用户需要先「选中客户」然后在隐藏的按钮中选择「合并客户」。
+
+![选择客户](../img/user_manual/merge-customers4.png)
+
+!!! Abstract ""
+
+    :warning: **注意:** 需要确认,「合并后，数据不可回退」。
+![二次确认](../img/user_manual/merge-customers2.png)
+
+!!! Abstract ""
+
+    用户需要选择，合并至「已选客户」或者「其他客户」然后选择合并后的客户负责人。
+![选择人员](../img/user_manual/merge-customers3.png)
+
+## 活动记录
+!!! Abstract ""
+
+    在右上方菜单按钮中点击「活动记录功能」按钮。
+![活动顶部入口](../img/user_manual/activitylog1.png)
+
+!!! Abstract ""
+
+    可以按客户维度查看，创建完成的「跟进记录」或「跟进计划」。
+![活动记录列表](../img/user_manual/activitylog3.png)
+
+!!! Abstract ""
+
+    点击「详情」按钮，可以查看「跟进记录」或「跟进计划」的详细信息。
+![活动记录详情](../img/user_manual/activitylog2.png)
+>>>>>>> dbea27632e594b4160fd9c8fdb70ed30721aa318
+

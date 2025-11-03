@@ -4,7 +4,7 @@
 
 ### 克隆本仓库
 ```bash
-git clone git@github.com:1Panel-dev/CordysCRM.git
+git clone git@github.com:1Panel-dev/CordysCRM-docs.git
 ```
 ### 创建虚拟环境 并激活
 

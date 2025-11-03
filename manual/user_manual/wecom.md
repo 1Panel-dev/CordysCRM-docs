@@ -98,15 +98,6 @@
          
       👉 官方文档：[通讯录同步](https://developer.work.weixin.qq.com/document/path/91039)
 
-## OAuth2 授权流程
-
-!!! Abstract ""
-
-    1. 系统 → 企业设置 → 认证设置 → 添加 OAuth2 认证
-    2. 企业微信中 OAuth 2.0 授权 URL 示例（`appid` 和 `agentid` 替换为实际值）
-
-![OAuth2配置](../img/user_manual/wecom-oauth2.png)
-
 ## 企业微信工作台访问 Cordys CRM
 
 ![工作台访问](../img/user_manual/wecom_workbench.png)
