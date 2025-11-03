@@ -12,11 +12,9 @@
 
 Cordys（/ˈkɔːrdɪs/）由“Cord”（连接之绳）与“System”（系统）融合而成，寓意“关系的纽带系统”，诠释了 CRM 的本质：连接客户，缔造长期价值。
 
-> 注：Cordys CRM 预计在2025年底正式开源并发布，现已开启公测。
+[![Watch the video](https://resource.fit2cloud.com/1panel/cordys-crm/img/overview-20251103.png)](https://www.bilibili.com/video/BV1gVh9zAEde/)
 
-[![Watch the video](https://resource.fit2cloud.com/1panel/cordys-crm/img/overview.png)](https://www.bilibili.com/video/BV1gVh9zAEde/)
-
-**Cordys CRM** 的核心优势是： 
+**Cordys CRM** 的核心优势是：
 
 - **灵活易用**：基于现代化技术栈构建，使用体验好；平台支持基于角色的权限管控，提供灵活的模块化配置，可无缝集成企业微信、钉钉、飞书等主流办公平台，实现高效协同；
 - **安全可控**：私有化部署，所有客户数据与业务信息均存储于企业自有服务器，数据主权完全自主，同时便于深度集成与二次开发；
@@ -27,7 +25,7 @@ Cordys（/ˈkɔːrdɪs/）由“Cord”（连接之绳）与“System”（系�
 
 ### 安装部署
 
-准备一台 Linux 服务器，安装好 [Docker](https://docs.docker.com/get-docker/) 后，执行以下一键安装脚本。  
+准备一台 Linux 服务器，安装好 [Docker](https://docs.docker.com/get-docker/) 后，执行以下一键安装脚本。
 
 ```bash
 docker run -d \
@@ -68,6 +66,10 @@ docker run -d \
     <td style="padding: 5px;background-color:#fff;"><img src= "https://resource.fit2cloud.com/1panel/cordys-crm/img/opportunity.png" alt="Opportunity List" /></td>
     <td style="padding: 5px;background-color:#fff;"><img src= "https://resource.fit2cloud.com/1panel/cordys-crm/img/opportunity-detail.png" alt="Opportunity Detail" /></td>
   </tr>
+  <tr>
+    <td style="padding: 5px;background-color:#fff;"><img src= "https://resource.fit2cloud.com/1panel/cordys-crm/img/bi.png" alt="BI" /></td>
+    <td style="padding: 5px;background-color:#fff;"><img src= "https://resource.fit2cloud.com/1panel/cordys-crm/img/ai.png" alt="AI" /></td>
+  </tr>  
 </table>
 
 ## Roadmap
@@ -85,12 +87,14 @@ docker run -d \
 - [x] 2025.09.26：[v1.2.1](https://github.com/1Panel-dev/CordysCRM/releases/tag/v1.2.1) 发布
 - [x] 2025.10.11：[v1.2.2](https://github.com/1Panel-dev/CordysCRM/releases/tag/v1.2.2) 发布
 - [x] 2025.10.17：[v1.2.3](https://github.com/1Panel-dev/CordysCRM/releases/tag/v1.2.3) 发布
-- [ ] 2025.11：代码开源、正式发布
+- [x] 2025.11.03：[v1.3.0](https://github.com/1Panel-dev/CordysCRM/releases/tag/v1.3.0) 发布
+- [ ] 2025.12：合同模块发布（包括合同、发票和回款等）
 
 ## 技术栈
 
--  AI 智能体能力: [MaxKB](https://github.com/1Panel-dev/MaxKB) 
--  数据可视化能力: [DataEase](https://github.com/dataease/dataease) 
+-  AI 智能体能力: [MaxKB](https://github.com/1Panel-dev/MaxKB)
+-  AI 智能问数能力：[SQLBot](https://github.com/dataease/SQLBot)
+-  数据可视化能力: [DataEase](https://github.com/dataease/dataease)
 -  后端: [Spring Boot](https://spring.io/projects/spring-boot)
 -  前端: [Vue.js](https://vuejs.org/) 、[Naive-UI](https://www.naiveui.com/) 、[Vant-UI](https://vant-ui.github.io/)
 -  中间件: [MySQL](https://www.mysql.com/) , [Redis](https://redis.com/)
