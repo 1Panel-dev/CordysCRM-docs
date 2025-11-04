@@ -1,4 +1,4 @@
-# 接入 DataEase 实现数据分析
+
 !!! Abstract ""
 
      **注意**：需要用到 DataEase 的商业版本（嵌入式/专业版/企业版），请参考：[DataEase 版本说明](https://dataease.cn/versions.html)

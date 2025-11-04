@@ -1,4 +1,3 @@
-# 飞书对接
 
 ## 飞书配置
 
@@ -10,7 +9,9 @@
 
     #### 2. 登录 [飞书管理后台](https://open.feishu.cn/app) 创建应用：
 
-    ![飞书管理后台](../img/user_manual/lark_bg.png)
+![飞书管理后台](../img/user_manual/lark_bg.png)
+
+!!! Abstract ""
       
     #### 3. 获取应用凭证
 
@@ -20,15 +21,18 @@
          - 应用的 App ID (应用id)
          - 应用的 App Secret  (应用密钥)
 
-      ![配置](../img/user_manual/lark_app.png)
+![配置](../img/user_manual/lark_app.png)
+
+!!! Abstract ""
     
     点击功能菜单按钮，选择管理后台选项，获取企业信息：
 
      - 企业编码（CorpID）
 
-      ![配置](../img/user_manual/lark_config.png)
-      ![配置](../img/user_manual/lark_corp.png)
+![配置](../img/user_manual/lark_config.png)
+![配置](../img/user_manual/lark_corp.png)
 
+!!! Abstract ""
 
     #### 4. 配置通讯录 API 权限
 
@@ -40,8 +44,9 @@
       - 通讯录-获取通讯录，部门，用户基本信息，获取通讯录部门组织架构， 用户组织架构信息， 获取用户 user ID（同步组织结构）
       - 消息与群组-获取与发送单聊、群组消息，以应用的身份发消息（Cordys CRM 通过应用发送通知）
 
-      ![配置](../img/user_manual/lark_permission.png)
+![配置](../img/user_manual/lark_permission.png)
 
+!!! Abstract ""
     
     #### 5. 安全设置
 
@@ -49,7 +54,9 @@
       - IP白名单-开启 IP 白名单后，仅白名单中的来源请求可以正常调用开放平台 API，不在白名单中的来源请求会被拒绝
       - H5可信域名-添加可信域名，确保在飞书内访问时不会被拦截
 
-      ![配置](../img/user_manual/lark_app_config.png)
+![配置](../img/user_manual/lark_app_config.png)
+
+!!! Abstract ""
 
     #### 6. 应用能力
     
@@ -66,7 +73,9 @@
             `https://open.feishu.cn/open-apis/authen/v1/authorize?app_id=cli_****************&redirect_uri=https%3A%2F%2F你的域名&state=LARK`
 
     
-        ![配置](../img/user_manual/lark_net_work_settings.png)
+![配置](../img/user_manual/lark_net_work_settings.png)
+
+!!! Abstract ""
 
     #### 7. 数据准备
 
@@ -80,9 +89,7 @@
 
 ### 配置飞书信息
 
-!!! Abstract ""
-
-    ![开启同步开关示意图](../img/user_manual/lark_enable.png)
+![开启同步开关示意图](../img/user_manual/lark_enable.png)
 
 ### 同步飞书组织架构
 
@@ -94,7 +101,9 @@
 
     **后续维护说明**：当飞书中新增成员或调整组织架构后，只需重复执行上述「飞书同步」操作，即可完成最新组织架构的更新。
 
-    ![同步组织架构](../img/user_manual/lark_sync.png)
+![同步组织架构](../img/user_manual/lark_sync.png)
+
+!!! Abstract ""
 
     #### 重要提醒：
 
@@ -102,13 +111,11 @@
          
       👉 飞书官方文档：[通讯录同步](https://open.feishu.cn/document/server-docs/contact-v3/department/children)
 
-      ![发布应用](../img/user_manual/lark_public.png)
+![发布应用](../img/user_manual/lark_public.png)
 
 
-## 飞书工作台访问 Cordys CRM
+## 飞书工作台访问 Cordys CRM 
 
-!!! Abstract ""
+![工作台访问](../img/user_manual/lark_workbench.png)
 
-    ![工作台访问](../img/user_manual/lark_workbench.png)
-
-    ![打开应用](../img/user_manual/lark_workbench_main.png)
+![打开应用](../img/user_manual/lark_workbench_main.png)

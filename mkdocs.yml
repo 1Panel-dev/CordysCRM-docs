@@ -53,18 +53,19 @@ nav:
         - 命令行工具: installation/cli.md
         - 常见问题: installation/faq.md
     - 功能手册:
-        - 组织架构管理: user_manual/org_manage.md
-        - 角色与权限配置:  user_manual/role_permission.md
+        - 组织架构配置: user_manual/org_manage.md
+        - 角色权限配置: user_manual/role_permission.md
         - 业务表单配置: user_manual/form_config.md
-        - 产品信息录入与管理: user_manual/product_entry.md
-        - 销售管理与运营: user_manual/sales_manage.md
-        - 企业微信集成与配置: user_manual/wecom.md
-        - 钉钉集成与配置: user_manual/dingtalk.md
-        - 飞书集成与配置: user_manual/lark.md
-        - 移动端访问与操作:  user_manual/mobile.md
-        - 接入 SQLBot 进行智能问数:  user_manual/sqlbot.md
-        - 接入 DataEase 进行数据分析:  user_manual/dataease.md
-        - 接入 MaxKB 实现销售智能体:  user_manual/maxkb.md
+        - 产品资料录入: user_manual/product_entry.md
+        - 销售流程管理: user_manual/sales_manage.md
+        - 企业协同配置:
+              - 企业微信集成配置: user_manual/wecom.md
+              - 钉钉系统集成配置: user_manual/dingtalk.md
+              - 飞书系统集成配置: user_manual/lark.md
+        - 移动端访问说明: user_manual/mobile.md
+        - 集成 SQLBot 实现智能问数: user_manual/sqlbot.md
+        - 集成 DataEase 进行数据分析: user_manual/dataease.md
+        - 集成 MaxKB 赋能销售智能: user_manual/maxkb.md
     - MCP 服务: mcp_server.md
     - 更新日志: changelog.md
     - 联系我们: contact.md

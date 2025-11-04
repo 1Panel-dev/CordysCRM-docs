@@ -1,4 +1,3 @@
-# 接入 SQLBot 实现智能问数
 
 ## 安装 SQLBot
 
