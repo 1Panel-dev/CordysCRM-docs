@@ -14,7 +14,8 @@
 
 企业版咨询：
 
-![企业版咨询二维码](<img/enterprise/wechat-customer.jpg>){ width="156px" }
+![企业版咨询二维码](<img/enterprise/wechat-customer.jpg>){ width="150px" }
+
 
 ## 2 企业培训服务
 

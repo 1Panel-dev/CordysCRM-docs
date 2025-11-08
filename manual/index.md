@@ -15,16 +15,16 @@
 !!! Tip "" 
 
     - **灵活易用**      
-      现代化的使用体验，灵活可配置的表单、流程和权限，轻松助力企业实现销售自动化；
+      基于现代化技术栈构建，使用体验好；平台支持基于角色的权限管控，提供灵活的模块化配置，可无缝集成企业微信、钉钉、飞书等主流办公平台，实现高效协同；
 
     - **安全可控**    
-      私有化部署，确保所有客户数据和业务信息都存储在企业自己的服务器上，企业对数据拥有完全的控制权；
+      私有化部署，所有客户数据与业务信息均存储于企业自有服务器，数据主权完全自主，同时便于深度集成与二次开发；
 
     - **BI 加持**      
-      借助 [DataEase](https://github.com/dataease/dataease) 强大的嵌入式能力和 [SQLBot](https://github.com/dataease/SQLBot) 的智能问数能力，轻松助力企业实现高效的数据分析和可视化；
+      融合 [DataEase](https://github.com/dataease/dataease) 与 [SQLBot](https://github.com/dataease/SQLBot) 的强大能力，实现销售数据可视化呈现、自助分析，以及基于自然语言的智能查询与归因分析；
 
     - **AI 加持**    
-      开放 MCP Server，借助 [MaxKB](https://github.com/1Panel-dev/MaxKB) 强大的智能体开发能力，轻松助力企业实现各类销售智能体。
+      开放 MCP Server，借助 [MaxKB](https://github.com/1Panel-dev/MaxKB) 强大的智能体开发能力，轻松构建智能创建、智能跟进、智能报价等多样化智能体。
 
 ## 3 界面展示
 
@@ -37,6 +37,10 @@
     <td style="padding: 5px;background-color:#fff;"><img src= "https://resource.fit2cloud.com/1panel/cordys-crm/img/opportunity.png" alt="Opportunity List" /></td>
     <td style="padding: 5px;background-color:#fff;"><img src= "https://resource.fit2cloud.com/1panel/cordys-crm/img/opportunity-detail.png" alt="Opportunity Detail" /></td>
   </tr>
+  <tr>
+    <td style="padding: 5px;background-color:#fff;"><img src= "https://resource.fit2cloud.com/1panel/cordys-crm/img/bi.png" alt="BI" /></td>
+    <td style="padding: 5px;background-color:#fff;"><img src= "https://resource.fit2cloud.com/1panel/cordys-crm/img/ai.png" alt="AI" /></td>
+  </tr> 
 </table>
 
 ## 4 主要功能
