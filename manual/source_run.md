@@ -49,7 +49,7 @@
     ```
 
 
-## 3 后端构建
+### 3 后端构建
 
 !!! Abstract ""
 
@@ -60,13 +60,60 @@
     ```bash
     ./mvnw clean install -DskipTests -DskipAntRunForJenkins --file backend/pom.xml
     ```
-
-!!! Abstract ""
-
     参数说明：
     
     * `-DskipTests`: 跳过测试用例执行。
     * `-DskipAntRunForJenkins`: 跳过 Jenkins 使用的 Ant 任务。
+
+## 3.1 🧩 后端参数配置说明
+
+!!! Abstract ""
+
+    在本地运行 **Cordys CRM** 项目时，需要在本地创建配置文件：
+    
+    ```
+    /opt/cordys/conf/cordys-crm.properties
+
+    ```
+    💡 **提示：**
+    你也可以通过修改应用 ‘Application’ 启动参数，自定义配置文件的加载路径。
+
+    ### ⚙️ 配置示例
+    
+    ```properties
+    # ==============================
+    # 数据库连接配置
+    # ==============================
+    # 数据库连接 URL，请根据实际环境修改 IP 与数据库名称
+    spring.datasource.url=jdbc:mysql://你的 MySQL IP:3306/cordys-crm?autoReconnect=false&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    
+    # 数据库用户名
+    spring.datasource.username=root
+    
+    # 数据库密码
+    spring.datasource.password=CordysCRM@mysql
+    
+    
+    # ==============================
+    # Redis 缓存配置
+    # ==============================
+    # Redis 服务器地址
+    spring.data.redis.host=你的 Redis IP
+    
+    # Redis 端口
+    spring.data.redis.port=6379
+    
+    # Redis 密码
+    spring.data.redis.password=CordysCRM@redis
+    
+    # Redis Session 存储方式（indexed 推荐）
+    spring.session.redis.repository-type=indexed
+    
+    # Session 过期时间（单位：秒，示例为 12 小时）
+    spring.session.timeout=43200s
+
+    ```
+
 
 ## 4 前端构建
 
