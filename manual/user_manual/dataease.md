@@ -46,11 +46,9 @@
 ### 外链集成
 !!! Abstract ""
 
-    通过外链方式集成 DataEase 仪表板，用户可以直接在 Cordys CRM 中查看数据分析结果。
+    通过外链方式集成 DataEase 仪表板，用户可以在 Cordys CRM 中点击链接跳转查看数据分析结果。
 
 ![外链集成效果](../img/user_manual/dataease-external-link.png)
-
-![外链仪表板](../img/user_manual/dataease-external-dashboard.png)
 
 ### 模块嵌入
 !!! Abstract ""
