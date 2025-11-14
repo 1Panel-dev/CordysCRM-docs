@@ -9,15 +9,25 @@
 
 ![创建应用](../img/user_manual/maxkb-add.png)
 
+
+!!! Abstract ""
+    
+    3.配置 Crodys CRM 的 MCP
+
+![MCP 添加](../img/mcp-config.png)
+
+[MCP 配置](../mcp_server.md)
+
+
 !!! Abstract ""
 
-    3.进入应用工作流编排页面
+    4.进入应用工作流编排页面
 
 ![应用编排](../img/mcp/agent_mcp.png)
 
 !!! Abstract ""
 
-    4.选择创建好的应用点击「嵌入第三方」，选择模式并复制代码
+    5.选择创建好的应用点击「嵌入第三方」，选择模式并复制代码
 
 ![嵌入脚本](../img/user_manual/maxkb-script.png)
 
@@ -37,11 +47,11 @@
      |-----------|----------------|-----------------------|
      | `ak`      | Access Key     | `ak=yourAk`           |
      | `sk`      | Secret Key     | `sk=yourSk`           |
-     | `username`| 用户名         | `username=admin`      |
+     | `asker`| MaxKB 内置对话用户参数         | `asker=张三`      |
     
     示例：
      ```
-     在嵌入脚本的 src 中追加 ak=${ak}&sk=${sk}&username=${username}
+     在嵌入脚本的 src 中追加 ak=${ak}&sk=${sk}&asker=${username}
      ```
 
 ![添加智能体](../img/user_manual/agent-add.png)
