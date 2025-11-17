@@ -55,11 +55,11 @@
           - **PC端访问地址**  
             `https://你的域名`  
             或  
-            `https://login.dingtalk.com/oauth2/auth?redirect_uri=https://你的域名%2Fa%2Fb&response_type=code&client_id=dingxxxxxxx&scope=openid&state=dddd&prompt=consent`
+            `https://login.dingtalk.com/oauth2/auth?redirect_uri=https://你的域名&response_type=code&client_id=dingxxxxxxx&scope=openid&state=dddd&prompt=consent`
           - **移动端访问地址**  
             `https://你的域名`  
             或  
-            `https://login.dingtalk.com/oauth2/auth?redirect_uri=https://你的域名%2Fa%2Fbmobile&response_type=code&client_id=dingxxxxxxx&scope=openid&state=dddd&prompt=consent`
+            `https://login.dingtalk.com/oauth2/auth?redirect_uri=https://你的域名%2Fmobile&response_type=code&client_id=dingxxxxxxx&scope=openid&state=dddd&prompt=consent`
     
 ![配置](../img/user_manual/dingtalk_net_work_settings.png)
 
