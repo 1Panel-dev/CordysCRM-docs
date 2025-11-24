@@ -22,6 +22,9 @@
 
     点击开始安装后，页面自动跳转到已安装应用列表，等待安装的 Cordys CRM 应用状态变为已启动。
 
+    :warning: **注意:** 如需修改 MySQL,Redis 相关配置参数请参考[**在线一键安装**](../installation/online_installtion.md/#_2) 文档。
+
+
 ![Cordys CRM安装状态](../img/installation/crm_success.png)
 
 !!! Abstract ""

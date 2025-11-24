@@ -44,48 +44,50 @@
 
     Cordys CRM 安装目录、服务运行端口、数据库配置等信息可在安装包解压后中的 install.conf 文件进行配置。
 
+    :warning: **注意:** 这部分参数仅限于离线包安装使用，在线安装请参考[**在线一键安装**](../installation/online_installtion.md/#_2) 文档。
+
     ```
-        # 基础配置
-        ## 安装路径, Cordys CRM 配置及数据文件默认将安装在 ${CORDYS_BASE}/cordys 目录下
-        CORDYS_BASE=/opt
-        ## Cordys CRM 使用的 docker 网络网段信息
-        CORDYS_DOCKER_SUBNET=172.30.10.0/24
-        ## 镜像前缀
-        CORDYS_IMAGE_PREFIX='registry.fit2cloud.com/cordys'
-        ## 镜像相关
-        CORDYS_IMAGE_NAME=cordys-crm-ce
-        CORDYS_IMAGE_TAG=v1.0.0
-        
-        ## CORDYS 主程序的 HTTP 服务监听端口
-        CORDYS_SERVER_PORT=8081
-        
-        # 数据库配置
-        ## 是否使用外部数据库
-        CORDYS_EXTERNAL_MYSQL=false
-        ## 数据库地址
-        CORDYS_MYSQL_HOST=$(hostname -I|cut -d" " -f 1)
-        ## 数据库端口
-        CORDYS_MYSQL_PORT=3306
-        ## 数据库库名
-        CORDYS_MYSQL_DB=cordys-crm
-        ## 数据库用户名
-        CORDYS_MYSQL_USER=root
-        ## 数据库密码
-        CORDYS_MYSQL_PASSWORD=CordysCRM@mysql
-        
-        # Redis 配置
-        ## 是否使用外部Redis
-        CORDYS_EXTERNAL_REDIS=false
-        ## Redis 端口
-        CORDYS_REDIS_PORT=6379
-        ## Redis 密码
-        CORDYS_REDIS_PASSWORD=CordysCRM@redis
-        ## Redis地址
-        CORDYS_REDIS_HOST=$(hostname -I|cut -d" " -f 1)
-         
-        #MCP Server
-        CORDYS_MCP_EXTERNAL_SERVER=false
-        CORDYS_MCP_SERVER_PORT=8082 
+    # 基础配置
+    ## 安装路径, Cordys CRM 配置及数据文件默认将安装在 ${CORDYS_BASE}/cordys 目录下
+    CORDYS_BASE=/opt
+    ## Cordys CRM 使用的 docker 网络网段信息
+    CORDYS_DOCKER_SUBNET=172.30.10.0/24
+    ## 镜像前缀
+    CORDYS_IMAGE_PREFIX='registry.fit2cloud.com/cordys'
+    ## 镜像相关
+    CORDYS_IMAGE_NAME=cordys-crm-ce
+    CORDYS_IMAGE_TAG=v1.0.0
+    
+    ## CORDYS 主程序的 HTTP 服务监听端口
+    CORDYS_SERVER_PORT=8081
+    
+    # 数据库配置
+    ## 是否使用外部数据库
+    CORDYS_EXTERNAL_MYSQL=false
+    ## 数据库地址
+    CORDYS_MYSQL_HOST=$(hostname -I|cut -d" " -f 1)
+    ## 数据库端口
+    CORDYS_MYSQL_PORT=3306
+    ## 数据库库名
+    CORDYS_MYSQL_DB=cordys-crm
+    ## 数据库用户名
+    CORDYS_MYSQL_USER=root
+    ## 数据库密码
+    CORDYS_MYSQL_PASSWORD=CordysCRM@mysql
+    
+    # Redis 配置
+    ## 是否使用外部Redis
+    CORDYS_EXTERNAL_REDIS=false
+    ## Redis 端口
+    CORDYS_REDIS_PORT=6379
+    ## Redis 密码
+    CORDYS_REDIS_PASSWORD=CordysCRM@redis
+    ## Redis地址
+    CORDYS_REDIS_HOST=$(hostname -I|cut -d" " -f 1)
+     
+    #MCP Server
+    CORDYS_MCP_EXTERNAL_SERVER=false
+    CORDYS_MCP_SERVER_PORT=8082 
     ```
 
 

@@ -39,8 +39,46 @@
     -p 8082:8082 \
     -v ~/cordys:/opt/cordys \
     1panel/cordys-crm
-    ```
 
+    ```
+   
+#### 参数说明
+
+!!! Abstract ""
+     如需调整 MySQL、Redis 等内部组件的配置文件，可直接编辑宿主机目录下的：
+  
+    ```
+    ~/cordys/conf/cordys-crm.properties
+    ``` 
+    ```
+    # 需要修改的配置把前面的 # 号去掉，修改对应的值即可，例如：
+    logger.sql.level=info
+    ## DATABASE
+    #spring.datasource.url=jdbc:mysql://ip:port/db?autoReconnect=false&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    #spring.datasource.username=username
+    #spring.datasource.password=password
+    
+    #spring.data.redis.host=ip
+    #spring.data.redis.password=password
+    #spring.data.redis.port=6379
+    #spring.session.redis.repository-type=indexed
+    
+    # SQLBot 默认获取 spring.datasource 配置访问数据库，支持自定义配置只读用户
+    # sqlbot.datasource.username=Read-only-user
+    # sqlbot.datasource.password=password
+    
+    # mcp server settings
+    #mcp.embedded.enabled=true
+    #cordys.crm.url=http://127.0.0.1:8081
+    #spring.mvc.async.request-timeout=60000
+    #spring.ai.mcp.server.type=ASYNC
+    #spring.ai.mcp.server.name=cordys-crm-mcp-server
+    
+    # Streamable Protocol Settings ,default is SSE
+    #spring.ai.mcp.server.protocol=STREAMABLE
+    #spring.ai.mcp.server.streamable-http.mcp-endpoint=/sse
+
+    ```
 
 ## 4 在线升级
 
