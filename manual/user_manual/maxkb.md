@@ -99,5 +99,6 @@
 
 ![智能跟进](../img/user_manual/agent-follow-up.png)
 
-更多智能体，正在开发中.....
+### 教学视频
 
+<iframe src="//player.bilibili.com/player.html?bvid=BV1WgynBGEh4&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="allowfullscreen" width="100%" height="500px"> </iframe>
