@@ -58,6 +58,7 @@ nav:
         - 业务表单配置: user_manual/form_config.md
         - 产品资料录入: user_manual/product_entry.md
         - 销售流程管理: user_manual/sales_manage.md
+        - 销售合同管理: user_manual/contract.md
         - 企业协同配置:
               - 企业微信集成配置: user_manual/wecom.md
               - 钉钉系统集成配置: user_manual/dingtalk.md
