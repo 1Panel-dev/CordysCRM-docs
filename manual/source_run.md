@@ -53,7 +53,7 @@
 
 !!! Abstract ""
 
-    📌 提示：确保已正确安装 JDK 21 及以上版本和 Maven 环境。
+    📌 提示：确保已正确安装 JDK 21 和 Maven 3.8.6 及以上版本和环境。
 
     执行以下命令构建后端模块（如 `framework`、`crm`、`app` 等）并安装到本地仓库：
 
@@ -188,3 +188,52 @@
     ```bash
     ./mvnw clean package
     ```
+## 6 常见问题
+
+!!! abstract ""
+
+    **Q1：构建过程中遇到依赖下载失败怎么办？**
+
+    A：如果出现以下错误：
+
+        
+        [ERROR] Failed to execute goal on project backend: Could not resolve dependencies
+        [ERROR] dependency: cn.cordys:quartz-spring-boot-starter:jar:1.0.0 (compile)
+        
+
+    请在本地 Maven 仓库配置中添加以下镜像源：
+
+        
+        <repositories>
+          <repository>
+            <id>cordys</id>
+            <url>https://repository.fit2cloud.com/repository/public</url>
+            <releases>
+              <enabled>true</enabled>
+            </releases>
+            <snapshots>
+              <enabled>true</enabled>
+            </snapshots>
+          </repository>
+        </repositories>
+
+
+    **Q2：运行前端项目时报错缺少模块怎么办？**
+
+    A：请确保已正确执行以下命令安装所有依赖：
+
+        pnpm i -w
+
+    如果问题仍然存在，可以尝试删除 `node_modules` 目录并重新安装依赖。
+
+
+    **Q3：后端启动时报错数据库连接失败怎么办？**
+
+    A：请检查 `cordys-crm.properties` 配置文件中的数据库连接信息是否正确，包括 IP 地址、端口、数据库名称、用户名和密码。
+
+
+    **Q4：如何修改默认的服务器端口？**
+
+    A：可以在 `cordys-crm.properties` 文件中添加或修改：
+
+        server.port=8081
