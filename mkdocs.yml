@@ -62,7 +62,7 @@ nav:
               - 合同: user_manual/contract.md
               - 回款计划: user_manual/contractPaymentPlan.md
               - 回款记录: user_manual/contractPaymentRecord.md
-              - 工商抬头: user_manual/contractBusinessName.md
+              - 工商抬头: user_manual/contractBusinessTitle.md
               - 发票记录: user_manual/contractInvoice.md
         - 企业协同配置:
               - 企业微信集成配置: user_manual/wecom.md
