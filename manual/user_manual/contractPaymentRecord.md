@@ -25,6 +25,6 @@
 
     管理员进入【系统-模块设置】，点击「回款记录表单设置」，选择「合同名称」，设置显示字段。
     
-![回款记录关联显示](../img/user_manual/contractPaymentRecord2.png)
+![回款记录关联显示](../img/user_manual/contractPaymentRecord3.png)
 
 
