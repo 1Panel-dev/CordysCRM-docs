@@ -43,7 +43,6 @@ nav:
     - 快速入门: quick_start.md
     - 教学视频: https://www.bilibili.com/video/BV1bAHczdESW/
     - 系统架构: system_arch.md
-    - 源码运行: source_run.md
     - 安装部署:
         - 离线安装（生产环境推荐）: installation/offline_installtion.md        
         - 1Panel 安装: installation/1panel_installtion.md
@@ -52,6 +51,7 @@ nav:
         - 阿里云安装: installation/aliyun.md
         - 命令行工具: installation/cli.md
         - 常见问题: installation/faq.md
+        - 源码运行: source_run.md
     - 功能手册:
         - 组织架构配置: user_manual/org_manage.md
         - 角色权限配置: user_manual/role_permission.md
