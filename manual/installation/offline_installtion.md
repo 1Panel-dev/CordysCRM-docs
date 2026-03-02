@@ -89,7 +89,15 @@
     CORDYS_MCP_EXTERNAL_SERVER=false
     CORDYS_MCP_SERVER_PORT=8082 
     ```
+    **PS：** 如果使用外置数据库，需对应创建数据库。参考 SQL 示例：
 
+    ```sql
+    CREATE DATABASE `cordys-crm`
+    CHARACTER SET utf8mb4
+    COLLATE utf8mb4_general_ci;
+    ```
+
+    请确保在 install.conf 中将 `CORDYS_EXTERNAL_MYSQL` 设置为 `true`，并填写正确的外部数据库连接信息。
 
 
     ### 4.3 执行安装脚本
