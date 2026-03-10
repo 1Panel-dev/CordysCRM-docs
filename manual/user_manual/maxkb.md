@@ -1,7 +1,7 @@
 
-## 添加 MaxKB 应用
+## 1 添加 MaxKB 应用
 
-### 创建应用
+### 1.2 创建应用
 !!! Abstract ""
 
     1. 登录 MaxKB
@@ -31,9 +31,9 @@
 
 ![嵌入脚本](../img/user_manual/maxkb-script.png)
 
-## 配置 MaxKB 应用
+## 2 配置 MaxKB 应用
 
-### 在 Cordys CRM 中配置
+### 2.1 在 Cordys CRM 中配置
 !!! Abstract ""
 
     1. 登录 Cordys CRM 系统
@@ -56,7 +56,7 @@
 
 ![添加智能体](../img/user_manual/agent-add.png)
 
-### 验证配置
+### 2.2 验证配置
 !!! Abstract ""
 
     配置完成后：
@@ -67,9 +67,9 @@
 
 ![验证配置](../img/user_manual/agent-welcome.png)
 
-## 使用销售智能体
+## 3 使用销售智能体
 
-### 智能创建线索
+### 3.1 智能创建线索
 !!! Abstract ""
 
     1.将线索基本信息描述完整发送给智能体 
@@ -80,7 +80,7 @@
 
 ![智能创建线索](../img/user_manual/agent-Create-lead.png)
 
-### 智能查询
+### 3.2 智能查询
 !!! Abstract ""
 
     1.输入客户名称关键字发送给智能体
@@ -89,7 +89,7 @@
 
 ![智能查询客户](../img/user_manual/agent-query-customer.png)
 
-### 智能跟进
+### 3.3 智能跟进
 
 !!! Abstract ""
 
@@ -99,6 +99,6 @@
 
 ![智能跟进](../img/user_manual/agent-follow-up.png)
 
-### 教学视频
+### 3.4 教学视频
 
 <iframe src="//player.bilibili.com/player.html?bvid=BV1WgynBGEh4&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="allowfullscreen" width="100%" height="500px"> </iframe>

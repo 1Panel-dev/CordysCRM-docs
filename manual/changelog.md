@@ -1,4 +1,5 @@
-## 版本说明
+
+## 1  版本说明
 
 飞致云相信好的软件是迭代出来的。Cordys CRM 将广泛听取用户反馈，坚持快速迭代。  
 
@@ -10,6 +11,6 @@
 
 
 
-## 发布日志（Release Notes）
+## 2 发布日志（Release Notes）
 
 👉 [Cordys CRM Releases](https://github.com/1Panel-dev/CordysCRM/releases)

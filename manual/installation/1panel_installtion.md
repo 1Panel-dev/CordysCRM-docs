@@ -25,13 +25,13 @@
     :warning: **注意:** 如需修改 MySQL,Redis 相关配置参数请参考[**在线一键安装**](../installation/online_installtion.md/#_2) 文档。
 
 
-![Cordys CRM安装状态](../img/installation/crm_success.png)
+![安装 Cordys CRM](../img/installation/1p_install_crm.png)
 
 !!! Abstract ""
 
     安装完成后，点击已安装应用列表中的 Cordys CRM 应用，进入应用详情页，可以看到 Cordys CRM 应用的相关信息。
 
-![安装 Cordys CRM](../img/installation/1p_install_crm.png)
+![Cordys CRM安装状态](../img/installation/crm_success.png)
 
 ## 3 升级 Cordys CRM
 

@@ -1,19 +1,19 @@
 
-## 企业微信配置
+## 1 企业微信配置
 
 !!! Abstract ""
 
-    #### 1. 企业微信管理员权限
+    **1 企业微信管理员权限**
 
     需要使用“企业微信管理员账号”（或具有通讯录管理权限的子管理员），普通成员账号没有权限创建应用或同步通讯录。
 
-    #### 2. 登录 [企业微信管理后台](https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome) 
+    **2 登录** [企业微信管理后台](https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome) 
 
 ![企业微信管理后台](../img/user_manual/wecom_bg.png)
 
 !!! Abstract ""
 
-    #### 3. 配置通讯录 API 权限
+    **3 配置通讯录 API 权限**
 
       在企业微信后台为应用开启"通讯录读写权限"。常见需要的权限包括：
 
@@ -24,7 +24,7 @@
 
 !!! Abstract ""
 
-    #### 4. 创建应用并获取凭证
+    **4 创建应用并获取凭证**
 
     在企业微信管理后台创建自建应用或"第三方应用"，并获取以下关键凭证：
 
@@ -37,7 +37,7 @@
 
 !!! Abstract ""
 
-    #### 5. 安全配置
+    **5 安全配置**
 
       - 配置应用的"可信 IP 白名单"，确保调用 API 时不被拒绝
       - 部署 HTTPS 服务
@@ -81,7 +81,7 @@
 
 !!! Abstract ""
 
-    #### 5. 数据准备
+    **5 数据准备**
 
       确认外部系统中的部门、成员数据字段与企业微信字段对应：
 
@@ -94,13 +94,13 @@
     - 如果要使用 【组织架构同步】和【OAuth2 认证】功能 Cordys CRM 部署地址必须是可信域名，不能使用 IP 地址或自己做的内网穿透地址。
 
 
-## Cordys CRM 配置同步组织架构
+## 2 Cordys CRM 配置同步组织架构
 
-### 配置企业微信信息
+### 2.1 配置企业微信信息
 
 ![开启同步开关示意图](../img/user_manual/wecom-enable.png)
 
-### 同步企业微信组织架构
+### 2.2 同步企业微信组织架构
 
 !!! Abstract ""
 
@@ -122,7 +122,7 @@
          
       👉 官方文档：[通讯录同步](https://developer.work.weixin.qq.com/document/path/91039)
 
-## 企业微信工作台访问 Cordys CRM
+## 3 企业微信工作台访问 Cordys CRM
 
 ![工作台访问](../img/user_manual/wecom_workbench.png)
 ![移动端界面](../img/user_manual/wecom_workbench_main.png)

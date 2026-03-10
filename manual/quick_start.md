@@ -23,7 +23,7 @@
 
     左侧为功能导航区域支持功能模块的快速切换，当集成 BI 工具 DataEase 后，开启 【仪表板】导航页。
 
-![导航栏](img/index/home.png)
+![导航栏](img/index/home2.png)
 
 
 !!! Tip ""
@@ -31,57 +31,58 @@
     === "首页"
     
         支持数据概览和快速入口
+        
     
-        ![首页](img/index/home.png)
+        ![首页](img/index/home2.png)
     
     === "智能体"
     
         支持嵌入第三方智能体平台MaxKB，基于CRM数据创建高效智能体应用， 如智能创建（线索/客户/商机/联系人）、智能录入（跟进记录）、智能查重等。
     
-        ![智能体](img/index/agent.png)
+        ![智能体](img/index/agent2.png)
     
     === "线索"
     
         对“潜在客户”从初次接触到转换为正式客户的全流程追踪和管理，支持自定义线索表单，一键转换线索，帮助企业提升线索转化效率。
     
-        ![线索](img/index/lead.png)
+        ![线索](img/index/lead2.png)
     
     === "客户"
     
         对已转化的“正式客户”的全生命周期管理，支持自定义客户表单、多成员协同跟进客户，以及对客户的联系人管理。
     
-         ![客户](img/index/account.png)
+         ![客户](img/index/account2.png)
     
     === "商机"
     
         对“有明确购买意向的客户”从“需求确认”到“最终成交（或流失）”的全流程跟踪和管控，支持自定义商机表单、商机阶段管理。
     
-         ![商机](img/index/opportunity.png)
+         ![商机](img/index/opportunity2.png)
 
     === "合同"
     
         用于管理合同履约与回款相关数据，涵盖回款计划、回款记录、工商抬头及发票记录等子模块，支持合同回款节点管理、资金回收跟踪及开票信息维护，确保合同执行过程在 CRM 中闭环、可追溯。
     
-         ![合同板块](img/user_manual/contractPaymentRecord1.png)
+         ![合同板块](img/user_manual/contractPaymentRecord12.png)
     
     === "产品"
     
         对企业销售的产品/服务进行标准化管理，支持自定义产品表单以及产品管理功能。
     
-         ![产品](img/index/product.png)
+         ![产品](img/index/product2.png)
     
     === "系统"
     
         包含组织架构、角色权限、模块设置、消息管理、企业设置以及系统日志功能。
     
-         ![系统](img/index/set.png)
+         ![系统](img/index/set2.png)
 
 ## 3 表单配置
 
 !!! Abstract ""
     Cordys CRM 现代化的使用体验，灵活可配置的表单、流程和权限，轻松助力企业实现销售自动化。 以 admin 用户登录后，进入【系统管理】→【模块设置】 可以快速自定义业务相关的表单，
 
-![表单配置](img/index/module.png)
+![表单配置](img/index/module2.png)
  
 
 

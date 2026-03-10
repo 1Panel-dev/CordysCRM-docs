@@ -3,9 +3,9 @@
 
     在左侧菜单点击【产品】，进入产品管理页面。
 
-## 产品
+## 1 产品
 
-### 新建产品
+### 1.1 新建产品
 
 !!! Abstract ""  
 
@@ -15,17 +15,17 @@
 
 ![添加产品](../img/user_manual/add-product.png)
 
-![产品表单设置](../img/user_manual/product-form-settings.png)
+![产品表单设置](../img/user_manual/product-form-settings2.png)
 
-### 导入产品
+### 1.2 导入产品
 
 !!! Abstract ""
 
     点击下载模板，将产品信息维护到模板中，再拖拽到文件区域，点击校验模板即可完成导入产品。
 
-![image-20251210162522188](../img/user_manual/product-import.png)
+![导入产品](../img/user_manual/product-import2.png)
 
-### 管理产品
+### 1.3 管理产品
 
 !!! Abstract ""
 
@@ -34,19 +34,19 @@
     - 调整产品排序
     - 批量产品操作
 
-![产品管理](../img/user_manual/manage-products.png)
+![产品管理](../img/user_manual/manage-products2.png)
 
-### 产品详情
+### 1.4 产品详情
 
 !!! Abstract ""
 
     点击产品名称可查看产品详情。
 
-![产品管理](../img/user_manual/Product_Details.png)
+![产品管理](../img/user_manual/Product_Details3.png)
 
-## 价格表
+## 2 价格表
 
-### 价格表表单设置
+### 2.1 价格表表单设置
 
 !!! Abstract ""
 
@@ -80,14 +80,14 @@
 
 ![image-20251210154921725](../img/user_manual/product-price-list2.png)
 
-### 新建价格表
+### 2.2 新建价格表
 
 !!! Abstract ""
     
 
     “新建价格表” 功能用于创建产品定价清单，支持录入产品信息、定价、税点等内容，是销售报价、产品定价管理的基础工具。
     
-    ### 操作步骤
+    #### 操作步骤
     
     - 步骤 1：进入 “新建价格表” 页面
     
@@ -113,19 +113,19 @@
 
 ![image-20251210161340016](../img/user_manual/product-price-list4.png)
 
-### 导入价格表
+### 2.3 导入价格表
 
 !!! Abstract ""
 
     点击下载模板，将产品信息维护到模板中，再拖拽到文件区域，点击校验模板即可完成导入价格表。
     
-    **注意** 因价格表存在包含多个产品的场景， 请严格按照模板完成价格表信息维护。
+    **注意:** 因价格表存在包含多个产品的场景， 请严格按照模板完成价格表信息维护。
 
 ![image-20251210162522188](../img/user_manual/product-import.png)
 
 ![image-20251210162840222](../img/user_manual/product-price-list5.png)
 
-### 导出价格表
+### 2.4 导出价格表
 
 !!! Abstract ""
 
@@ -138,7 +138,7 @@
 
 ![image-20251210163515333](../img/user_manual/product-price-list7.png)
 
-### 管理价格表
+### 2.5 管理价格表
 
 !!! Abstract ""
 

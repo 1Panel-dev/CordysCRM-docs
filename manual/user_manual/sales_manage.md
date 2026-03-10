@@ -1,18 +1,19 @@
-## 线索
 
-### 新建线索
+## 1 线索
+
+### 1.1 新建线索
 
 !!! Abstract ""
 
     在左侧菜单点击【线索】，进入线索管理页面。
 
-![线索管理页面](../img/user_manual/leads-page.png)
+![线索管理页面](../img/user_manual/leads-page2.png)
 
 !!! Abstract ""
 
     用户可以「新建线索」或快捷「导入线索」。
 
-![新建线索](../img/user_manual/create-lead.png)
+![新建线索](../img/user_manual/create-lead2.png)
 
 !!! Abstract ""
 
@@ -20,14 +21,14 @@
 
 ![线索表单设置](../img/user_manual/lead-form-settings.png)
 
-### 线索转换
+### 1.2 线索转换
 !!! Abstract ""
 
     选择线索，点击「转换」，可以快捷将线索转换成客户/商机。
 
-![线索转换](../img/user_manual/convert-lead.png)
+![线索转换](../img/user_manual/convert-lead2.png)
 
-### 线索转为客户
+### 1.3 线索转为客户
 
 !!! Abstract ""
 
@@ -54,12 +55,11 @@
     配置好线索表单字段与客户表单字段的映射关系，在进行「线索转客户」操作时即可一键填充相应信息。
 
 ![客户表单联动](../img/user_manual/image-20250918114143362.png)
+ 
 
-## 
+## 2 客户
 
-## 客户
-
-### 新建客户
+### 2.1 新建客户
 
 !!! Abstract ""
 
@@ -68,43 +68,43 @@
      - 「新建客户」
      - 快捷「线索转为客户」
 
-![客户管理](../img/user_manual/customer-management.png)
+![客户管理](../img/user_manual/customer-management2.png)
 
 !!! Abstract ""
 
     **提示**：客户表单可以根据公司业务特性在表单设置中进行自定义。
 
-![客户表单设置](../img/user_manual/customer-form-settings.png)
+![客户表单设置](../img/user_manual/customer-form-settings2.png)
 
-### 合并客户
+### 2.2 合并客户
 
 !!! Abstract ""
 
     在左侧菜单点击【客户】，进入客户管理页面。
 
-![客户合并](../img/user_manual/merge-customers1.png)
+![客户合并](../img/user_manual/merge-customers12.png)
 
 !!! Abstract ""
 
     用户需要先「选中客户」然后在隐藏的按钮中选择「合并客户」。
 
-![选择客户](../img/user_manual/merge-customers4.png)
+![选择客户](../img/user_manual/merge-customers42.png)
 
 !!! Abstract ""
 
     :warning: **注意:** 需要确认,「合并后，数据不可回退」。
 
-![二次确认](../img/user_manual/merge-customers2.png)
+![二次确认](../img/user_manual/merge-customers22.png)
 
 !!! Abstract ""
 
     用户需要选择，合并至「已选客户」或者「其他客户」然后选择合并后的客户负责人。
 
-![选择人员](../img/user_manual/merge-customers3.png)
+![选择人员](../img/user_manual/merge-customers32.png)
 
-## 商机
+## 3 商机
 
-### 新建商机
+### 3.1 新建商机
 
 !!! Abstract ""
 
@@ -113,10 +113,10 @@
      - 「新建商机」
      - 快捷「线索转为商机」
 
-![商机管理](../img/user_manual/opportunity-management.png)
+![商机管理](../img/user_manual/opportunity-management2.png)
 
 
-### 跟进商机
+### 3.2 跟进商机
 !!! Abstract ""
 
     点击商机名称或「跟进」按钮，进入商机详情页面。
@@ -131,7 +131,7 @@
 
 ![商机跟进](../img/user_manual/follow-opportunity.png)
 
-### 商机看板
+### 3.3 商机看板
 
 !!! Abstract ""
 
@@ -141,15 +141,15 @@
     - 商机视图均支持列表和看板两种模式查看
     - 修改商机阶段或商机赢率可进入[模块配置-商机阶段设置]调整
 
-![商机看板](../img/user_manual/opportunity_Dashboard.png)
+![商机看板](../img/user_manual/opportunity_Dashboard2.png)
 
-### 商机图表
+### 3.4 商机图表
 
 !!! Abstract ""
 
     点击视图右侧的数据分析icon，进入商机数据分析。
 
-![商机分析](../img/user_manual/opportunity_Analysis.png)
+![商机分析](../img/user_manual/opportunity_Analysis2.png)
 
 !!! Abstract ""
 
@@ -159,17 +159,17 @@
     - 数据指标支持计数、求和、平均三种汇总方式
     - 生成的图表支持全屏展示和下载保存
 
-![商机分析](../img/user_manual/opportunity_Data_Analysis.png)
+![商机分析](../img/user_manual/opportunity_Data_Analysis2.png)
 
-## 报价单
+## 4 报价单
 
-### 报价单表单设置
+### 4.1 报价单表单设置
 
 !!! Abstract ""
 
     在左侧菜单点击【系统-模块配置】，点击报价单表单设置。
 
-![image-20251210171102653](../img/user_manual/quote-setting.png)
+![报价单表单设置](../img/user_manual/quote-setting.png)
 
 !!! Abstract ""
 
@@ -210,7 +210,7 @@
 
 ![image-20251210174053658](../img/user_manual/quote-setting3.png)
 
-### 新建报价单
+### 4.2 新建报价单
 
 !!! Abstract ""
     
@@ -244,7 +244,7 @@
 
 ![image-20251210180901273](../img/user_manual/quote-create2.png)
 
-### 审批报价单
+### 4.3 审批报价单
 
 !!! Abstract ""
 
@@ -258,7 +258,7 @@
 
 ![image-20251210182716977](../img/user_manual/quote-approval.png)
 
-### 管理报价单
+### 4.4 管理报价单
 
 !!! Abstract ""
 
@@ -270,12 +270,12 @@
 
 ![image-20251210183633044](../img/user_manual/quote-approval 1.png)
 
-## 活动记录
+## 5 活动记录
 
 !!! Abstract ""
 
     在右上方菜单按钮中点击「活动记录功能」按钮。
-![活动顶部入口](../img/user_manual/activitylog1.png)
+![活动顶部入口](../img/user_manual/activitylog12.png)
 
 !!! Abstract ""
 
@@ -285,4 +285,4 @@
 !!! Abstract ""
 
     点击「详情」按钮，可以查看「跟进记录」或「跟进计划」的详细信息。
-![活动记录详情](../img/user_manual/activitylog2.png)
+![活动记录详情](../img/user_manual/activitylog22.png)

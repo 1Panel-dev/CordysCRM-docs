@@ -3,29 +3,29 @@
 
      点击【系统】菜单，进入【角色权限】页面。
 
-## 添加角色
+## 1 添加角色
 !!! Abstract ""
 
     系统已内置三种角色： **管理员** ， **销售经理** ，**销售专员**
 
     点击「添加」按钮即可触发添加新角色功能。
 
-![添加角色](../img/user_manual/add-role.png)
+![添加角色](../img/user_manual/add-role2.png)
 
-## 从两个维度配置角色权限
-### 功能权限
+## 2 从两个维度配置角色权限
+### 2.1 功能权限
 !!! Abstract ""
     通过导航栏的功能模块、页面功能按钮进行控制。
 
-### 数据权限
+### 2.2 数据权限
 !!! Abstract ""
     通过组织架构控制数据查询范围。
 
-![配置角色权限](../img/user_manual/role-permissions.png)
+![配置角色权限](../img/user_manual/role-permissions2.png)
 
-## 添加角色成员
+## 3 添加角色成员
 
-### 操作步骤
+### 3.1 操作步骤
 
 !!! Abstract ""
 
@@ -38,4 +38,4 @@
         - 按个人添加
         - 从其他角色批量添加成员
 
-![添加角色成员](../img/user_manual/add-role-members.png)
+![添加角色成员](../img/user_manual/add-role-members3.png)

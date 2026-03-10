@@ -1,13 +1,13 @@
 
-## 安装 SQLBot
+## 1 安装 SQLBot
 
 !!! Abstract ""
 
     SQLBot 的安装教程请参考：[SQLBot 操作手册](https://dataease.cn/sqlbot/)
 
-## 添加 SQLBot 应用
+## 2 添加 SQLBot 应用
 
-### 创建应用
+### 2.1 创建应用
 
 !!! Abstract ""
 
@@ -19,7 +19,7 @@
 
 ![创建 SQLBot 应用](../img/user_manual/sqlbot-create-app.png)
 
-### 配置接口
+### 2.2 配置接口
 
 !!! Abstract ""
 
@@ -36,7 +36,7 @@
 
 :warning: **注意:** 如果在问数过程中出现 401 错误，请检查上图这几个参数是否一致。
 
-## 开放 Cordys CRM 的数据库端口
+## 3 开放 Cordys CRM 的数据库端口
 
 !!! Abstract ""
 
@@ -48,7 +48,7 @@
 
     在集成 SQLBot 之前，请确认已开放数据库端口，以便 SQLBot 能够成功连接并执行查询操作。 
 
-## Cordys CRM 中配置应用
+## 4 Cordys CRM 中配置应用
 
 !!! Abstract ""
 
@@ -58,7 +58,7 @@
 
 ![Cordys CRM 配置](../img/user_manual/cordys-sqlbot-config.png)
 
-### 验证配置
+### 4.1 验证配置
 
 !!! Abstract ""
 

@@ -1,10 +1,11 @@
-## 快捷导入成员
+
+## 1 快捷导入成员
 
 !!! Abstract ""
 
     **注意**：导入成员功能与企业微信同步功能互斥，请确认同步组织架构开关处于关闭状态。
 
-### 操作步骤
+### 1.1 操作步骤
 
 !!! Abstract ""
 
@@ -13,33 +14,33 @@
     3. 根据模板要求维护好成员信息
     4. 上传模板文件，即可完成导入
 
-![导入成员](../img/user_manual/import-members.png)
+![导入成员](../img/user_manual/import-members2.png)
 
 
-## 手动添加成员
+## 2 手动添加成员
 
 !!! Abstract ""
 
     **注意**：添加成员功能与企业微信同步功能互斥，请确认同步组织架构开关处于关闭状态。
 
-### 添加部门信息
+### 2.1 添加部门信息
 
 !!! Abstract ""
 
-![添加部门](../img/user_manual/add-department.png)
+![添加部门](../img/user_manual/add-department2.png)
 
-### 添加成员
+### 2.2 添加成员
 
 !!! Abstract ""
 
     录入成员基本信息，即创建成功。
 
-![添加成员](../img/user_manual/add-member.png)
+![添加成员](../img/user_manual/add-member2.png)
 
 
-## 成员登录系统
+## 3 成员登录系统
 
-### 账号登录
+### 3.1 账号登录
 
 !!! Abstract ""
 
@@ -50,10 +51,10 @@
 
 ![账号登录](../img/installation/login.png)
 
-### 扫码登录
+### 3.2 扫码登录
 
 !!! Abstract ""
 
     从企业微信同步的成员，在【企业设置】→【三方设置】中开启扫码登录后，即可使用扫码登录功能。
 
-![扫码登录](../img/user_manual/qr-login.png)
+![扫码登录](../img/user_manual/qr-login2.png)

@@ -1,5 +1,5 @@
 
-### 新建发票记录
+## 1 新建发票记录
 
 !!! Abstract ""
 
@@ -18,7 +18,7 @@
 
 ![创建回款计划](../img/user_manual/contractInvoice5.png)
 
-### 发票记录配置
+## 2 发票记录配置
 
 !!! Abstract ""
 

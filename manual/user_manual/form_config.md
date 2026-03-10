@@ -24,7 +24,7 @@
 
 
 
-## 表单设置
+## 1 表单设置
 
 !!! Abstract ""
 
@@ -215,7 +215,7 @@
 
 ![image-20251210114449217](../img/user_manual/form-linkage-2.png)
 
-## 业务规则设置
+## 2 业务规则设置
 
 !!! Abstract ""
 
@@ -231,7 +231,7 @@
     - **商机阶段**
     - **商机关闭原因设置**
 
-![业务规则设置](../img/user_manual/business-rules.png)
+![业务规则设置](../img/user_manual/business-rules2.png)
 
 
 !!! abstract ""
@@ -334,5 +334,5 @@
     - 进行中的商机阶段支持修改阶段名称与赢率
     - 支持自定义商机阶段回退设置
 
-![业务规则设置](../img/user_manual/Opportunity_Stage_Settings.png)
+![业务规则设置](../img/user_manual/Opportunity_Stage_Settings2.png)
 
