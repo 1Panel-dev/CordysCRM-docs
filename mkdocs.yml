@@ -73,6 +73,7 @@ nav:
         - 集成 DataEase 进行数据分析: user_manual/dataease.md
         - 集成 MaxKB 赋能销售智能: user_manual/maxkb.md
     - MCP 服务: mcp_server.md
+    - Skills 集成: skills.md
     - 更新日志: changelog.md
     - 联系我们: contact.md
     - 商业版本: enterprise.md

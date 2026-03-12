@@ -1,0 +1,214 @@
+# Cordys CRM Skills for OpenClaw
+
+!!! Tip ""
+    Cordys CRM Skills + OpenClaw + 企微机器人/飞书机器人/钉钉机器人，可快速构建你的私人 AI 助理，
+    像与人交谈一样与你的 Cordys CRM 工作区进行交互。
+## 1 部署 OpenClaw 实例
+
+!!! Tip ""
+    推荐使用 [**1Panel**](https://1panel.cn/docs) 一键部署，过程简单且稳定：[**👉 快速开始**](https://openclaw.club/zh-cn/guides/quick-start)
+
+![OpenCLaw-1p](img/openclaw/1panel-docs.png)
+
+!!! Tip ""
+
+    OpenClaw安装部署完成后，进入智能体列表页面，如下图所示，点击WebUI直接跳转即可进入OpenClaw页面。
+![OpenCLaw-1p](img/openclaw/1panel-ai.png)
+
+!!! Tip ""
+
+    进入OpenClaw页面后，输入信息看AI助理是否回复，如有正常回复，如下图所示，说明确认OpenClaw部署成功。
+![OpenCLaw](img/openclaw/chat.png)
+
+!!! Tip ""
+    官方安装地址参考 [OpenClaw 官方文档](https://docs.openclaw.ai/zh-CN)，如果在安装过程中遇到任何问题，可以参考官方文档中的 [常见问题排查](https://docs.openclaw.ai/zh-CN/start/openclaw)。
+
+## 2 Cordys CRM Skills 安装
+!!! Tip ""
+    仓库地址：https://github.com/1Panel-dev/CordysCRM-skills
+
+    快速安装命令
+    
+    ```bash
+    git clone https://github.com/1Panel-dev/CordysCRM-skills ~/.openclaw/workspace/skills/cordys-crm
+    ```
+    
+    安装完成后，需要在 OpenClaw 的 ~/.openclaw/workspace/skills/cordys-crm 目录下创建一个 `.env` 文件，内容如下：
+
+    ```ini
+    CORDYS_ACCESS_KEY=你的AccessKey
+    CORDYS_SECRET_KEY=你的SecretKey
+    CORDYS_CRM_DOMAIN=https://你的域名
+    ```
+
+!!! Tip ""
+
+    登录 Cordys CRM，从左下角【个人中心 - API Keys】中获取 Access Key 和 Secret Key。
+
+
+![APIKeys](img/index/api_keys.png)
+
+!!! Tip ""
+
+    验证 Cordys CRM Skills 是否安装成功，可以通过 `Chat` 对话，输入查询关键字，如果能够正确返回查询结果集，则说明安装成功。
+
+![ChatRes](img/openclaw/chat-crm.png)
+
+## 3 Skills 模块概览
+
+!!! Tip ""
+    | 模块 | 描述 |
+    | --- | --- |
+    | `lead` | 线索记录，用于销售团队初步跟进。|
+    | `account` | 客户/公司基础信息，包含行业、地点、负责人等。|
+    | `opportunity` | 商机（机会）记录，表示销售流程中的具体案子。|
+    | `contract` | 合同及其回款、发票等子资源，用于追踪签署后的收款与交付状态。|
+    | `pool` | 公共资源池（可选），用于共享线索或商机。|
+    | 其他模块 | 可以根据 API 文档继续扩展，如 `task`、`contact`、`product` 等。|
+    
+    你在自然语言中提到的模块名，转换成命令时就能直接定位到本文档中所列的模块。
+    
+    `contract` 模块还有几个常用的二级资源：
+
+    `contract/payment-plan`（回款计划）、`invoice`、`contract/business-title`（工商抬头）、`contract/payment-record` 以及 `opportunity/quotation`，CLI 仍然沿用 `page`/json 的方式访问它们。
+
+
+
+## 4 聊天渠道配置
+
+###  4.1 飞书 集成示例
+
+!!! Tip ""
+
+    步骤一：创建企业自建应用
+    首先我们登录飞书进入飞书开放平台（链接：https://open.feishu.cn/app?lang=zh-CN ）进入「开发者后台」，选择「企业自建应用」，点击「创建企业自建应用」，如下图所示：
+
+![agent](img/openclaw/feishu/feishu-1.png)
+
+!!! Tip ""
+
+    如下图所示，根据要求输入相关应用名称以及基本信息点击创建即可。
+
+![agent](img/openclaw/feishu/feishu-2.png)
+
+!!! Tip ""
+
+    步骤二：创建机器人
+    如下图所示，点击创建机器人，完成机器人创建。
+
+![agent](img/openclaw/feishu/feishu-3.png)
+
+!!! Tip ""
+
+    进入机器人页面后，点击机器人配置后的编辑按钮，定义机器人名称，如下图所示：
+
+![agent](img/openclaw/feishu/feishu-4.png)
+
+!!! Tip ""
+    
+    步骤三：权限配置
+    完成机器人创建后，点击进入「权限管理」，并点击「批量导入/导出权限」。
+
+![agent](img/openclaw/feishu/feishu-5.png)
+
+!!! Tip ""
+
+    点击「批量导入/导出权限」，清空默认配置权限信息，将如下所示权限授权脚本复制粘贴，点击保存即可。
+
+```json
+{
+  "scopes": {
+    "tenant": [
+      "aily:file:read",
+      "aily:file:write",
+      "application:application.app_message_stats.overview:readonly",
+      "application:application:self_manage",
+      "application:bot.menu:write",
+      "cardkit:card:write",
+      "contact:contact.base:readonly",
+      "contact:user.employee_id:readonly",
+      "corehr:file:download",
+      "docs:document.content:read",
+      "event:ip_list",
+      "im:chat",
+      "im:chat.access_event.bot_p2p_chat:read",
+      "im:chat.members:bot_access",
+      "im:message",
+      "im:message.group_at_msg:readonly",
+      "im:message.group_msg",
+      "im:message.p2p_msg:readonly",
+      "im:message:readonly",
+      "im:message:send_as_bot",
+      "im:resource",
+      "sheets:spreadsheet",
+      "wiki:wiki:readonly"
+    ],
+    "user": [
+      "aily:file:read",
+      "aily:file:write",
+      "contact:contact.base:readonly",
+      "im:chat.access_event.bot_p2p_chat:read"
+    ]
+  }
+}
+
+```
+!!! Tip ""
+
+    粘贴后，效果如下图所示：
+
+![agent](img/openclaw/feishu/feishu-6.png)
+
+!!! Tip ""
+
+    点击「下一步，确认新增权限」，并最终确保所有权限均已开通。其中个人用户自行确认企业账户需要管理员审核。确保所有权限均已开通，如下图所示：
+
+![agent](img/openclaw/feishu/feishu-7.png)
+
+!!! Tip ""
+
+    步骤四：获取凭证并配置
+    进入飞书平台在「凭证与基础信息」中获取应用凭证，如下图所示：
+![agent](img/openclaw/feishu/feishu-8.png)
+
+!!! Tip ""
+
+    获取后，进入OpenClaw 的「配置」页面，完成飞书聊天渠道配置，点击保存，如下图所示：
+
+![agent](img/openclaw/feishu/feishu-9.png)
+
+!!! Tip ""
+
+    步骤五：创建事件与回调
+    如下图所示，进入「事件与回调」菜单，分别完成订阅方式设置以及事件添加。
+
+![agent](img/openclaw/feishu/feishu-10.png)
+
+!!! Tip ""
+
+    订阅方式设置：参照如下图选择长链接订阅方式：
+![agent](img/openclaw/feishu/feishu-11.png)
+
+!!! Tip ""
+
+    添加事件：输入im.message.receive_v1搜索，基于「应用身份订阅」勾选接收消息，最后确认添加即可。
+![agent](img/openclaw/feishu/feishu-12.png)
+
+!!! Tip ""
+
+    步骤六：创建并发布版本
+    确认完成后点击「创建版本」，然后根据要求输入版本相关信息并发布，个人账号无需审批，企业账号需要进行企业审批。
+![agent](img/openclaw/feishu/feishu-13.png)
+
+!!! Tip ""
+
+    步骤七：飞书渠道验证确认
+    以上信息配置完成后，我们进入飞书客户端，如下图打开应用：
+
+![agent](img/openclaw/feishu/feishu-14.png)
+
+###  4.2 企业微信集成示例
+
+!!! Tip ""
+    整理中，敬请期待。。。
+   
