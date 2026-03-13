@@ -1,7 +1,7 @@
 # Cordys CRM Skills for OpenClaw
 
 !!! Tip ""
-    Cordys CRM Skills + OpenClaw + 企微机器人/飞书机器人/钉钉机器人，可快速构建你的私人 AI 助理，
+    Cordys CRM Skills + OpenClaw + 企微机器人/飞书机器人，可快速构建你的私人 AI 助理，
     像与人交谈一样与你的 Cordys CRM 工作区进行交互。
 ## 1 部署 OpenClaw 实例
 
@@ -76,7 +76,89 @@
 
 ## 4 聊天渠道配置
 
-###  4.1 飞书 集成示例
+###  4.1 企微集成示例
+
+!!! Tip ""
+    第一步：以长连接方式创建智能机器人，获取Bot ID和Secret
+
+    通过长连接方式创建的智能机器人，支持主动向用户发送消息。
+    
+    可在客户端-工作台，点击-智能机器人-创建机器人，选择API模式创建。
+
+![agent](img/openclaw/weixin/1.png)
+
+![agent](img/openclaw/weixin/2.png)
+
+!!! Tip ""
+    选择以「长连接」方式创建，并获取Bot ID 和 Secret。
+
+![agent](img/openclaw/weixin/3.png)
+
+!!! Tip ""
+    第二步：在本地终端安装企微插件
+    ```bash
+        openclaw plugins install @wecom/wecom-openclaw-plugin
+    ```
+
+    安装成功提示如图。
+
+![agent](img/openclaw/weixin/4.png)
+
+!!! Tip ""
+    重启 OpenClaw。
+
+    ```bash
+        openclaw gateway start
+    ```
+    在终端中，输入以下命令，添加渠道。
+    ```bash
+        openclaw channels add
+    ```
+    在select channel步骤，选择 channel 为企业微信
+
+![agent](img/openclaw/weixin/5.png)
+
+
+!!! Tip ""
+    输入企业微信机器人Bot ID、Secret。
+
+![agent](img/openclaw/weixin/6.png)
+
+!!! Tip ""
+    选择 finish。
+
+![agent](img/openclaw/weixin/7.png)
+
+!!! Tip ""
+    选择配对方式，选择 Pairing。
+
+![agent](img/openclaw/weixin/8.png)
+
+!!! Tip ""
+    完成后续配置，并可看到配置渠道成功。
+
+![agent](img/openclaw/weixin/9.png)
+
+!!! Tip ""
+    在企业微信中，保存机器人，并跟他发消息。会收到一个配置密钥。
+
+![agent](img/openclaw/weixin/10.png)
+
+
+!!! Tip ""
+    复制此信息最后一行，并输入在终端中，完成配对。
+
+![agent](img/openclaw/weixin/11.png)
+
+
+!!! Tip ""
+    此时可在企业微信中正常对话。
+
+![agent](img/openclaw/weixin/12.png)
+
+完整的企业微信机器人接入流程可参考 [**👉 官方文档**](https://open.work.weixin.qq.com/help2/pc/cat?doc_id=21657&invite_source=19&invite_channel=6&invite_olduser=1&inviter_identity=2&version=5.0.6.70630&platform=mac)
+
+###  4.2 飞书 集成示例
 
 !!! Tip ""
 
@@ -105,7 +187,7 @@
 ![agent](img/openclaw/feishu/feishu-4.png)
 
 !!! Tip ""
-    
+
     步骤三：权限配置
     完成机器人创建后，点击进入「权限管理」，并点击「批量导入/导出权限」。
 
@@ -206,9 +288,3 @@
     以上信息配置完成后，我们进入飞书客户端，如下图打开应用：
 
 ![agent](img/openclaw/feishu/feishu-14.png)
-
-###  4.2 企业微信集成示例
-
-!!! Tip ""
-    整理中，敬请期待。。。
-   
