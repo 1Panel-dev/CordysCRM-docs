@@ -156,6 +156,8 @@
 
 ![agent](img/openclaw/weixin/12.png)
 
+![agent](img/openclaw/weixin/13.png)
+
 完整的企业微信机器人接入流程可参考 [**👉 官方文档**](https://open.work.weixin.qq.com/help2/pc/cat?doc_id=21657&invite_source=19&invite_channel=6&invite_olduser=1&inviter_identity=2&version=5.0.6.70630&platform=mac)
 
 ###  4.2 飞书 集成示例
