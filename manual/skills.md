@@ -30,7 +30,12 @@
     快速安装命令
     
     ```bash
-    git clone https://github.com/1Panel-dev/CordysCRM-skills ~/.openclaw/workspace/skills/cordys-crm
+    # 通过 Clawdhub 安装（推荐，自动处理依赖和更新）
+    clawdhub install cordys-crm
+    
+    # 直接使用安装脚本（适合有 Bash 环境的用户）
+    curl -fsSL https://raw.githubusercontent.com/1Panel-dev/CordysCRM-skills/main/install.sh | bash
+
     ```
     
     安装完成后，需要在 OpenClaw 的 ~/.openclaw/workspace/skills/cordys-crm 目录下创建一个 `.env` 文件，内容如下：
