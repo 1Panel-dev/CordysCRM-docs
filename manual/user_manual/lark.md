@@ -89,7 +89,7 @@
 
 ### 2.1 配置飞书信息
 
-![开启同步开关示意图](../img/user_manual/lark_enable.png)
+![开启同步开关示意图](../img/user_manual/lark_enable2.png)
 
 ### 2.2 同步飞书组织架构
 
@@ -101,7 +101,7 @@
 
     **后续维护说明**：当飞书中新增成员或调整组织架构后，只需重复执行上述「飞书同步」操作，即可完成最新组织架构的更新。
 
-![同步组织架构](../img/user_manual/lark_sync.png)
+![同步组织架构](../img/user_manual/lark_sync2.png)
 
 !!! Abstract ""
 

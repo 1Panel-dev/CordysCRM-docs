@@ -64,6 +64,7 @@ nav:
               - 回款记录: user_manual/contractPaymentRecord.md
               - 工商抬头: user_manual/contractBusinessTitle.md
               - 发票记录: user_manual/contractInvoice.md
+        - 销售订单管理: user_manual/order.md
         - 企业协同配置:
               - 企业微信集成配置: user_manual/wecom.md
               - 钉钉系统集成配置: user_manual/dingtalk.md

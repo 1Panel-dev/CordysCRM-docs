@@ -98,7 +98,7 @@
 
 ### 2.1 配置企业微信信息
 
-![开启同步开关示意图](../img/user_manual/wecom-enable.png)
+![开启同步开关示意图](../img/user_manual/wecom-enable2.png)
 
 ### 2.2 同步企业微信组织架构
 
@@ -110,7 +110,7 @@
 
     **后续维护说明**：当企业微信中新增成员或调整组织架构后，只需重复执行上述「企业微信同步」操作，即可完成最新组织架构的更新。
 
-![同步组织架构](../img/user_manual/wecom-sync.png)
+![同步组织架构](../img/user_manual/wecom-sync2.png)
 
 !!! Abstract ""
 
@@ -124,5 +124,5 @@
 
 ## 3 企业微信工作台访问 Cordys CRM
 
-![工作台访问](../img/user_manual/wecom_workbench.png)
-![移动端界面](../img/user_manual/wecom_workbench_main.png)
+![工作台访问](../img/user_manual/wecom_workbench2.png)
+![移动端界面](../img/user_manual/wecom_workbench_main2.png)

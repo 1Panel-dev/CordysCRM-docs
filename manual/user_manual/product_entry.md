@@ -13,7 +13,7 @@
     
      **提示**：产品表单可以根据公司产品特性在表单设置中进行自定义。
 
-![添加产品](../img/user_manual/add-product.png)
+![添加产品](../img/user_manual/add-product2.png)
 
 ![产品表单设置](../img/user_manual/product-form-settings2.png)
 
@@ -52,7 +52,7 @@
 
     在左侧菜单点击【系统-模块配置】，点击价格表表单设置。
 
-![image-20251210152938864](../img/user_manual/product- price-list.png)
+![价格表表单设置](../img/user_manual/product-price-list2.png)
 
 !!! Abstract ""
 
@@ -62,12 +62,13 @@
     - 配置属性：在右侧字段属性面板修改字段的基本信息、约束、权限等
     - 调整布局：在表单属性中修改整体表单布局
     
-    **产品表格** 字段：
+    **产品表格字段** ：
+
     - 支持从左侧选择字段拖拽到表格区域
     - 支持设置表格汇总
     - 支持固定表格列
 
-![](../img/user_manual/product-price-list1.png)
+![](../img/user_manual/product-price-list22.png)
 
 !!! Abstract ""
 
@@ -78,7 +79,7 @@
     - **显示字段**：设置选择产品时，同步显示关联的字段，依次展示在表格列中
     
 
-![image-20251210154921725](../img/user_manual/product-price-list2.png)
+![image-20251210154921725](../img/user_manual/product-price-list12.png)
 
 ### 2.2 新建价格表
 
@@ -109,9 +110,9 @@
 
 
 
-![image-20251210161304428](../img/user_manual/product-price-list3.png)
+![image-20251210161304428](../img/user_manual/product-price-list32.png)
 
-![image-20251210161340016](../img/user_manual/product-price-list4.png)
+![image-20251210161340016](../img/user_manual/product-price-list42.png)
 
 ### 2.3 导入价格表
 

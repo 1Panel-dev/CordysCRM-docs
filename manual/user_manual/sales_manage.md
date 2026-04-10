@@ -19,7 +19,7 @@
 
     **提示**：线索表单可以根据公司业务特性在表单设置中进行自定义。
 
-![线索表单设置](../img/user_manual/lead-form-settings.png)
+![线索表单设置](../img/user_manual/lead-form-settings2.png)
 
 ### 1.2 线索转换
 !!! Abstract ""
@@ -206,9 +206,9 @@
     - 选择当前表格可参与计算的字段（数字类型）
     - 通过运算符组成完成公式
 
-![image-20251210173818179](../img/user_manual/quote-setting2.png)
+![image-20251210173818179](../img/user_manual/quote-setting22.png)
 
-![image-20251210174053658](../img/user_manual/quote-setting3.png)
+![image-20251210174053658](../img/user_manual/quote-setting32.png)
 
 ### 4.2 新建报价单
 
@@ -240,7 +240,7 @@
     - 步骤 4：确认并保存
       
 
-![image-20251210181046171](../img/user_manual/quote-create.png)
+![image-20251210181046171](../img/user_manual/quote-create12.png)
 
 ![image-20251210180901273](../img/user_manual/quote-create2.png)
 
@@ -256,7 +256,7 @@
     - 拥有审批权限的用户可以 **通过/不通过** 报价单，系统会推送审批结果给报价单创建人
     - 审批 **通过** 的报价单支持 **下载** PDF
 
-![image-20251210182716977](../img/user_manual/quote-approval.png)
+![image-20251210182716977](../img/user_manual/quote-approval2.png)
 
 ### 4.4 管理报价单
 
@@ -268,7 +268,7 @@
     - 拥有审批权限的用户支持批量审批报价单
     - 拥有作废权限的用户支持批量作废报价单
 
-![image-20251210183633044](../img/user_manual/quote-approval 1.png)
+![image-20251210183633044](../img/user_manual/quote-approval 12.png)
 
 ## 5 活动记录
 

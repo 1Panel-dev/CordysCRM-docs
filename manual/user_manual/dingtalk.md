@@ -85,7 +85,7 @@
 
 ### 2.1 配置钉钉信息
 
-![开启同步开关示意图](../img/user_manual/dingtalk-enable.png)
+![开启同步开关示意图](../img/user_manual/dingtalk-enable2.png)
 
 ### 2.2 同步钉钉组织架构
 
@@ -97,7 +97,7 @@
 
     **后续维护说明**：当钉钉中新增成员或调整组织架构后，只需重复执行上述「钉钉同步」操作，即可完成最新组织架构的更新。
 
-![同步组织架构](../img/user_manual/dingtalk-sync.png)
+![同步组织架构](../img/user_manual/dingtalk-sync2.png)
 
 !!! Abstract ""
 
@@ -105,13 +105,13 @@
        - 所有钉钉配置均需要应用发布成功后生效
       👉 钉钉官方文档：[通讯录同步](https://open.dingtalk.com/document/orgapp/contacts-overview)
       
-![发布应用](../img/user_manual/dingtalk_public.png)
+![发布应用](../img/user_manual/dingtalk_public2.png)
 
 
 ## 2.2 钉钉工作台访问 Cordys CRM
 
 !!! Abstract ""
 
-![工作台访问](../img/user_manual/dingtalk_workbench.png)
+![工作台访问](../img/user_manual/dingtalk_workbench2.png)
 
-![移动端界面](../img/user_manual/dingtalk_workbench_main.png)
+![移动端界面](../img/user_manual/dingtalk_workbench_main2.png)

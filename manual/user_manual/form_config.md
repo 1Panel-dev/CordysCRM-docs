@@ -14,12 +14,13 @@
     - **回款计划表单**
     - **产品表单**
     - **价格表表单**
+    - **订单表单**
     - **跟进记录表单**
     - **跟进计划表单**
     
     用户可以根据公司业务需求自定义表单内容。
 
-![表单设置](../img/user_manual/form-settings.png)
+![表单设置](../img/user_manual/form-settings2.png)
 
 
 
@@ -36,7 +37,7 @@
     2. **配置属性**：在右侧字段属性面板修改字段的基本信息、约束、权限等
     3. **调整布局**：在表单属性中修改整体表单布局
 
-![模块设置](../img/user_manual/module-settings.png)
+![模块设置](../img/user_manual/module-settings2.png)
 
 !!! Abstract ""
 
@@ -59,7 +60,7 @@
     - 设置规则，选择“线上”显示“线上来源详情”字段
     
 
-![下拉单选-显隐](../img/user_manual/form-dropdown-box-show.png)
+![下拉单选-显隐](../img/user_manual/form-dropdown-box-show2.png)
 
 
 !!! Abstract ""
@@ -117,7 +118,7 @@
     - 合同
     
 
-![数据源](../img/user_manual/form-data-source.png)
+![数据源](../img/user_manual/form-data-source2.png)
 
 !!! Abstract ""
 
@@ -138,7 +139,7 @@
     - 设置过滤条件“客户名属于客户名”
     
 
-![数据过滤](../img/user_manual/form-data-source-filter.png)
+![数据过滤](../img/user_manual/form-data-source-filter2.png)
 
 !!! Abstract ""
 
@@ -157,9 +158,9 @@
     - 选择“显示字段”
     - 选择“手机号”
 
-![显示字段](../img/user_manual/form-data-source-field.png)
+![显示字段](../img/user_manual/form-data-source-field2.png)
 
-![显示字段2](../img/user_manual/form-data-source-filter2.png)
+![显示字段2](../img/user_manual/form-data-source-filter22.png)
 
 
 !!! Abstract ""
@@ -177,7 +178,7 @@
     - 选择当前表单可参与计算的字段（数字类型）
     - 通过运算符组成完成公式
 
-![计算字段](../img/user_manual/form-calculated-field.png)
+![计算字段](../img/user_manual/form-calculated-field2.png)
 
 !!! Abstract ""
 

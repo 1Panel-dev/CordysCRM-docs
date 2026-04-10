@@ -173,12 +173,12 @@
 !!! Tip ""
     方式一：Cordys CRM 智能查询效果
 
-![智能查询客户](../img/user_manual/agent-query-customer.png)
+![智能查询客户](../img/user_manual/agent-query-customer2.png)
 
 !!! Tip ""
     方式二：Cordys CRM 智能添加效果
 
-![智能创建线索](../img/user_manual/agent-Create-lead.png)
+![智能创建线索](../img/user_manual/agent-Create-lead2.png)
 
 ###  4.2 开发工具 TRAE 集成示例
 

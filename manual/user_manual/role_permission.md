@@ -38,4 +38,4 @@
         - 按个人添加
         - 从其他角色批量添加成员
 
-![添加角色成员](../img/user_manual/add-role-members3.png)
+![添加角色成员](../img/user_manual/add-role-members2.png)
