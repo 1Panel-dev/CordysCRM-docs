@@ -1,7 +1,7 @@
 
 ## 1 企业微信配置
 
-!!! Abstract ""
+!!! Tip ""
 
     **1 企业微信管理员权限**
 
@@ -11,7 +11,7 @@
 
 ![企业微信管理后台](../img/user_manual/wecom_bg.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **3 配置通讯录 API 权限**
 
@@ -22,7 +22,7 @@
 
 ![配置](../img/user_manual/wecom-settings.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **4 创建应用并获取凭证**
 
@@ -35,7 +35,7 @@
 ![配置](../img/user_manual/wecom_app.png)
 ![配置](../img/user_manual/wecom_app_create.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **5 安全配置**
 
@@ -45,7 +45,7 @@
 
 ![配置](../img/user_manual/wecom_app_config.png)
 
-!!! Abstract ""
+!!! Tip ""
 
      **域名归属认证说明**
 
@@ -79,7 +79,7 @@
 
 ![配置](../img/user_manual/wecom_app_domain.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **5 数据准备**
 
@@ -102,7 +102,7 @@
 
 ### 2.2 同步企业微信组织架构
 
-!!! Abstract ""
+!!! Tip ""
 
     1. 点击【系统】菜单，进入【组织架构】页面
     2. 点击「更多」按钮下的「企业微信同步」选项，系统将自动触发同步流程
@@ -112,9 +112,9 @@
 
 ![同步组织架构](../img/user_manual/wecom-sync2.png)
 
-!!! Abstract ""
+!!! Tip ""
 
-    #### 重要提醒：
+     **重要提醒：**
 
        - 获取成员详情接口（user/get）从 2025 年 6 月 20 日 20:00 起，所有新创建的自建应用和代开发应用在调用 `user/get` 接口时，将不再返回头像、性别、手机号、邮箱、企业邮箱、地址等敏感字段。只有通过 OAuth2 授权流程，并获得管理员以及成员本人授权后，才能获取完整信息。  
 

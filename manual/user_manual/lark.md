@@ -1,7 +1,7 @@
 
 ## 1 飞书配置
 
-!!! Abstract ""
+!!! Tip ""
 
     **1 飞书管理员权限**
 
@@ -11,7 +11,7 @@
 
 ![飞书管理后台](../img/user_manual/lark_bg.png)
 
-!!! Abstract ""
+!!! Tip ""
       
     **3 获取应用凭证**
 
@@ -23,7 +23,7 @@
 
 ![配置](../img/user_manual/lark_app.png)
 
-!!! Abstract ""
+!!! Tip ""
     
     点击功能菜单按钮，选择管理后台选项，获取企业信息：
 
@@ -32,7 +32,7 @@
 ![配置](../img/user_manual/lark_config.png)
 ![配置](../img/user_manual/lark_corp.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **4 配置通讯录 API 权限**
 
@@ -46,7 +46,7 @@
 
 ![配置](../img/user_manual/lark_permission.png)
 
-!!! Abstract ""
+!!! Tip ""
     
     **5 安全设置**
 
@@ -56,7 +56,7 @@
 
 ![配置](../img/user_manual/lark_app_config.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **6 应用能力**
     
@@ -75,7 +75,7 @@
     
 ![配置](../img/user_manual/lark_net_work_settings.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **7 数据准备**
 
@@ -93,7 +93,7 @@
 
 ### 2.2 同步飞书组织架构
 
-!!! Abstract ""
+!!! Tip ""
 
     1. 点击【系统】菜单，进入【组织架构】页面
     2. 点击「更多」按钮下的「飞书同步」选项，系统将自动触发同步流程
@@ -103,9 +103,9 @@
 
 ![同步组织架构](../img/user_manual/lark_sync2.png)
 
-!!! Abstract ""
+!!! Tip ""
 
-    #### 重要提醒：
+    **重要提醒：**
 
        - 所有飞书配置均需要应用发布成功后生效
          

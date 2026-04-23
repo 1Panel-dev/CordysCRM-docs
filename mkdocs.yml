@@ -41,23 +41,20 @@ theme:
 nav:
     - 产品介绍: index.md
     - 快速入门: quick_start.md
+    - 更新日志: changelog.md
     - 教学视频: https://www.bilibili.com/video/BV1bAHczdESW/
     - 系统架构: system_arch.md
     - 安装部署:
-        - 离线安装（生产环境推荐）: installation/offline_installtion.md        
-        - 1Panel 安装: installation/1panel_installtion.md
+        - 离线安装: installation/offline_installtion.md
         - 在线安装: installation/online_installtion.md
+        - 1Panel 安装: installation/1panel_installtion.md
         - Windows 安装: installation/win.md
         - 阿里云安装: installation/aliyun.md
         - 命令行工具: installation/cli.md
-        - 常见问题: installation/faq.md
         - 源码运行: source_run.md
     - 功能手册:
-        - 组织架构配置: user_manual/org_manage.md
-        - 角色权限配置: user_manual/role_permission.md
-        - 业务表单配置: user_manual/form_config.md
-        - 产品资料录入: user_manual/product_entry.md
         - 销售流程管理: user_manual/sales_manage.md
+        - 产品资料录入: user_manual/product_entry.md
         - 销售合同管理:
               - 合同: user_manual/contract.md
               - 回款计划: user_manual/contractPaymentPlan.md
@@ -65,18 +62,23 @@ nav:
               - 工商抬头: user_manual/contractBusinessTitle.md
               - 发票记录: user_manual/contractInvoice.md
         - 销售订单管理: user_manual/order.md
+        - 系统设置:
+            - 组织架构配置: user_manual/org_manage.md
+            - 角色权限配置: user_manual/role_permission.md
+            - 业务表单配置: user_manual/form_config.md
+        - MCP 服务: mcp_server.md
         - 企业协同配置:
               - 企业微信集成配置: user_manual/wecom.md
               - 钉钉系统集成配置: user_manual/dingtalk.md
               - 飞书系统集成配置: user_manual/lark.md
         - 移动端访问说明: user_manual/mobile.md
+    - 常见问题: installation/faq.md
+    - 实践教程:
         - 集成 SQLBot 实现智能问数: user_manual/sqlbot.md
         - 集成 DataEase 进行数据分析: user_manual/dataease.md
         - 集成 MaxKB 赋能销售智能: user_manual/maxkb.md
-    - MCP 服务: mcp_server.md
     - Skills 集成: skills.md
     - 体验环境: trial.md
-    - 更新日志: changelog.md
     - 联系我们: contact.md
     - 商业版本: enterprise.md
     

@@ -1,6 +1,6 @@
 ## 1 Cordys CRM Service
 
-!!! Abstract ""
+!!! Tip ""
     Cordys CRM 在安装的时候默认向系统中添加了相应的 Cordys CRM Service，支持的 Service 命令有：
 
     - start : 启动 Cordys CRM 服务
@@ -12,7 +12,7 @@
 
 ## 2 csctl
 
-!!! Abstract ""
+!!! Tip ""
     Cordys CRM 默认内置了命令行运维工具（csctl），通过执行 csctl help 命令，可以查看相关的帮助文档。
 
     ```

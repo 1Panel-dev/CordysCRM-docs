@@ -2,7 +2,7 @@
 ## 1 添加 MaxKB 应用
 
 ### 1.2 创建应用
-!!! Abstract ""
+!!! Tip ""
 
     1. 登录 MaxKB
     2. 点击「创建」选择「高级编排」
@@ -10,7 +10,7 @@
 ![创建应用](../img/user_manual/maxkb-add2.png)
 
 
-!!! Abstract ""
+!!! Tip ""
     
     3.配置 Crodys CRM 的 MCP
 
@@ -19,13 +19,13 @@
 [MCP 配置](../mcp_server.md)
 
 
-!!! Abstract ""
+!!! Tip ""
 
     4.进入应用工作流编排页面
 
 ![应用编排](../img/mcp/agent_mcp2.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     5.选择创建好的应用点击「嵌入第三方」，选择模式并复制代码
 
@@ -34,7 +34,7 @@
 ## 2 配置 MaxKB 应用
 
 ### 2.1 在 Cordys CRM 中配置
-!!! Abstract ""
+!!! Tip ""
 
     1. 登录 Cordys CRM 系统
     2. 进入【智能体】模块
@@ -57,7 +57,7 @@
 ![添加智能体](../img/user_manual/agent-add2.png)
 
 ### 2.2 验证配置
-!!! Abstract ""
+!!! Tip ""
 
     配置完成后：
 
@@ -70,7 +70,7 @@
 ## 3 使用销售智能体
 
 ### 3.1 智能创建线索
-!!! Abstract ""
+!!! Tip ""
 
     1.将线索基本信息描述完整发送给智能体 
 
@@ -81,7 +81,7 @@
 ![智能创建线索](../img/user_manual/agent-Create-lead2.png)
 
 ### 3.2 智能查询
-!!! Abstract ""
+!!! Tip ""
 
     1.输入客户名称关键字发送给智能体
 
@@ -91,7 +91,7 @@
 
 ### 3.3 智能跟进
 
-!!! Abstract ""
+!!! Tip ""
 
     1.将跟进计划基本信息描述完整发送给智能体
 

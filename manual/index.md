@@ -40,7 +40,7 @@
 
 ## 4 视频介绍
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115496452164030&bvid=BV1Wm1sB4ExL&cid=33722466438&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115496452164030&bvid=BV1Wm1sB4ExL&cid=33722466438&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500px"></iframe>
 
 
 ## 5 主要功能

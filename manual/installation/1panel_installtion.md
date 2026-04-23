@@ -1,6 +1,6 @@
 ## 1 安装 1Panel
 
-!!! Abstract ""
+!!! Tip ""
 
     关于 1Panel 的安装部署与基础功能介绍，请参考 [**1Panel 官方文档**](https://1panel.cn/docs/) 。完成 1Panel 的安装部署后，根据提示网址打开浏览器进入 1Panel，界面如下。    
 
@@ -9,7 +9,7 @@
 
 ## 2 安装 Cordys CRM
 
-!!! Abstract ""
+!!! Tip ""
 
     在应用详情页选择最新的 Cordys CRM 版本进行安装，进行相关参数设置。
 
@@ -27,7 +27,7 @@
 
 ![安装 Cordys CRM](../img/installation/1p_install_crm.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     安装完成后，点击已安装应用列表中的 Cordys CRM 应用，进入应用详情页，可以看到 Cordys CRM 应用的相关信息。
 
@@ -35,20 +35,20 @@
 
 ## 3 升级 Cordys CRM
 
-!!! Abstract ""
+!!! Tip ""
 
     Cordys CRM 支持在线升级，点击已安装应用列表中的 Cordys CRM 应用，进入应用详情页，选择最新的版本进行升级。
 
 ![在线升级](../img/installation/1p_upgrade.png)
 ![在线升级](../img/installation/1p_upgrade_info.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     :warning: **注意:** 升级过程中如果发生错误，请参考：[**常见问题排查**](../installation/faq.md)。
 
 ## 4 访问 Cordys CRM
 
-!!! Abstract ""
+!!! Tip ""
 
     安装成功后即可通过浏览器访问地址 `http://目标服务器 IP 地址:8081`，并使用默认的管理员用户和密码登录 Cordys CRM。
 
