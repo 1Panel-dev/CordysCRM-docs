@@ -15,14 +15,14 @@
 
     * 名称：要创建的 Cordys CRM 应用的名称。
     * 管理员：admin 应用初始化创建的超级管理员用户名。
-    * 管理员密码：CordysCRM 应用初始化创建的超级管理员密码（后续登录系统可以更改）。
+    * 管理员密码：Cordys CRM 应用初始化创建的超级管理员密码（后续登录系统可以更改）。
     * 端口1：Cordys CRM 应用的服务端口设置为 8081。
     * 端口2：Cordys CRM MCP 服务端口设置为 8082。
     * 端口外部访问：Cordys CRM 应用可以使用 IP:PORT 进行访问（Cordys CRM 应用必须打开外部端口访问）。
 
     点击开始安装后，页面自动跳转到已安装应用列表，等待安装的 Cordys CRM 应用状态变为已启动。
 
-    :warning: **注意:** 如需修改 MySQL,Redis 相关配置参数请参考[**在线一键安装**](../installation/online_installtion.md/#_2) 文档。
+    :warning: **注意:** 如需修改 MySQL，Redis 相关配置参数请参考[**在线一键安装**](../installation/online_installtion.md/#_2) 文档。
 
 
 ![安装 Cordys CRM](../img/installation/1p_install_crm.png)
