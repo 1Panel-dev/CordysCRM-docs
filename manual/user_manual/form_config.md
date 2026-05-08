@@ -156,11 +156,11 @@
     - 进入商机表单设
     - 选择联系人字段
     - 选择“显示字段”
-    - 选择“手机号”
+    - 选择“姓名、邮箱”
 
-![显示字段](../img/user_manual/form-data-source-field2.png)
+![显示字段](../img/user_manual/form-data-source-filter22.png)
 
-![显示字段2](../img/user_manual/form-data-source-filter22.png)
+![显示字段2](../img/user_manual/form-data-source-field2.png)
 
 
 !!! Tip ""

@@ -25,7 +25,7 @@
     1. 企业管理员账号登录后，在左侧菜单选择【应用管理】>【工作台】或【工作台管理】
     2. 点击「创建应用」- 选择「添加自建应用」
 
-![创建应用](../img/user_manual/wecom-create-app.png)
+![创建应用](../img/user_manual/wecom-create-app2.png)
 
 ### 1.4 配置应用信息
 
@@ -51,7 +51,7 @@
 
     **注意**：对指定可见范围的成员，系统将自动在工作台显示应用，详情可参照 [企业微信开发者中心文档](https://developer.work.weixin.qq.com/)
 
-![应用配置](../img/user_manual/wecom-app-config.png)
+![应用配置](../img/user_manual/wecom-app-config2.png)
 
 ### 1.5 微信工作台访问
 

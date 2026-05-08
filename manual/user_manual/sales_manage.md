@@ -36,19 +36,19 @@
     
     **注意**：转客户的线索不会展示在线索列表中。
 
-![线索转换](../img/user_manual/image-20250918114641384.png)
+![线索转换](../img/user_manual/image-202509181146413842.png)
 
 !!! Tip ""
 
     线索转客户需管理员在“客户表单设置”中配置好表单联动，即可将线索信息快捷填充到客户表单。
 
-![线索转客户](../img/user_manual/image-20250918113810902.png)
+![线索转客户](../img/user_manual/image-202509181138109022.png)
 
 !!! Tip ""
 
     管理员进入【系统-模块设置】，点击「客户表单设置」，进入「表单属性」，设置表单联动。
 
-![客户表单设置](../img/user_manual/image-20250918114122155.png)
+![客户表单设置](../img/user_manual/image-202509181141221552.png)
 
 !!! Tip ""
 
@@ -129,7 +129,7 @@
     - 录入当前商机的「跟进记录」
     - 添加「跟进计划」
 
-![商机跟进](../img/user_manual/follow-opportunity.png)
+![商机跟进](../img/user_manual/follow-opportunity2.png)
 
 ### 3.3 商机看板
 
@@ -169,7 +169,7 @@
 
     在左侧菜单点击【系统-模块配置】，点击报价单表单设置。
 
-![报价单表单设置](../img/user_manual/quote-setting.png)
+![报价单表单设置](../img/user_manual/quote-setting2.png)
 
 !!! Tip ""
 

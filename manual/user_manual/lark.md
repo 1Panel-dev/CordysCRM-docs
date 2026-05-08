@@ -9,7 +9,7 @@
 
     **2 登录** [飞书管理后台](https://open.feishu.cn/app) 创建应用：
 
-![飞书管理后台](../img/user_manual/lark_bg.png)
+![飞书管理后台](../img/user_manual/lark_bg2.png)
 
 !!! Tip ""
       
@@ -21,7 +21,7 @@
          - 应用的 App ID (应用id)
          - 应用的 App Secret  (应用密钥)
 
-![配置](../img/user_manual/lark_app.png)
+![配置](../img/user_manual/lark_app2.png)
 
 !!! Tip ""
     
@@ -29,8 +29,8 @@
 
      - 企业编码（CorpID）
 
-![配置](../img/user_manual/lark_config.png)
-![配置](../img/user_manual/lark_corp.png)
+![配置](../img/user_manual/lark_config2.png)
+![配置](../img/user_manual/lark_corp2.png)
 
 !!! Tip ""
 
@@ -44,7 +44,7 @@
       - 通讯录-获取通讯录，部门，用户基本信息，获取通讯录部门组织架构， 用户组织架构信息， 获取用户 user ID（同步组织结构）
       - 消息与群组-获取与发送单聊、群组消息，以应用的身份发消息（Cordys CRM 通过应用发送通知）
 
-![配置](../img/user_manual/lark_permission.png)
+![配置](../img/user_manual/lark_permission2.png)
 
 !!! Tip ""
     
@@ -54,7 +54,7 @@
       - IP白名单-开启 IP 白名单后，仅白名单中的来源请求可以正常调用开放平台 API，不在白名单中的来源请求会被拒绝
       - H5可信域名-添加可信域名，确保在飞书内访问时不会被拦截
 
-![配置](../img/user_manual/lark_app_config.png)
+![配置](../img/user_manual/lark_app_config2.png)
 
 !!! Tip ""
 
@@ -73,7 +73,7 @@
             `https://open.feishu.cn/open-apis/authen/v1/authorize?app_id=cli_****************&redirect_uri=https%3A%2F%2F你的域名&state=LARK`
 
     
-![配置](../img/user_manual/lark_net_work_settings.png)
+![配置](../img/user_manual/lark_net_work_settings2.png)
 
 !!! Tip ""
 
@@ -111,11 +111,11 @@
          
       👉 飞书官方文档：[通讯录同步](https://open.feishu.cn/document/server-docs/contact-v3/department/children)
 
-![发布应用](../img/user_manual/lark_public.png)
+![发布应用](../img/user_manual/lark_public2.png)
 
 
 ## 3 飞书工作台访问 Cordys CRM 
 
-![工作台访问](../img/user_manual/lark_workbench.png)
+![工作台访问](../img/user_manual/lark_workbench2.png)
 
-![打开应用](../img/user_manual/lark_workbench_main.png)
+![打开应用](../img/user_manual/lark_workbench_main2.png)

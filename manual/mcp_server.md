@@ -57,7 +57,7 @@
     登录 Cordys CRM 从左下角 【 个人中心 - API Keys 】中获取 Access Key 和 Secret Key
 
 
-![APIKeys](img/index/api_keys.png)
+![APIKeys](img/index/api_keys2.png)
 
 
 !!! Tip ""
@@ -139,7 +139,7 @@
 
 ###  4.1 MaxKB 集成示例
 
-![agent](img/mcp/agent_mcp.png)
+![agent](img/mcp/agent_mcp2.png)
 
 
 !!! Tip ""

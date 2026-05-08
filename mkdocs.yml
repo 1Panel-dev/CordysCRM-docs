@@ -59,8 +59,8 @@ nav:
               - 合同: user_manual/contract.md
               - 回款计划: user_manual/contractPaymentPlan.md
               - 回款记录: user_manual/contractPaymentRecord.md
-              - 工商抬头: user_manual/contractBusinessTitle.md
               - 发票记录: user_manual/contractInvoice.md
+              - 工商抬头: user_manual/contractBusinessTitle.md
         - 销售订单管理: user_manual/order.md
         - 系统设置:
             - 组织架构配置: user_manual/org_manage.md

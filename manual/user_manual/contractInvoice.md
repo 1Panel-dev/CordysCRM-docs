@@ -5,11 +5,13 @@
 
     在左侧菜单点击【合同】，选择顶部发票记录标签，进入发票记录页面。
 
-![创建发票](../img/user_manual/contractInvoice12.png)
-
-!!! Tip ""
-
     用户可以「新建发票」或「导出发票」。
+
+[//]: # (![创建发票]&#40;../img/user_manual/contractInvoice12.png&#41;)
+
+
+
+    
 ![发票列表](../img/user_manual/contractInvoice22.png)
 
 !!! Tip ""

@@ -23,7 +23,7 @@
 
     左侧为功能导航区域支持功能模块的快速切换，当集成 BI 工具 DataEase 后，开启 【仪表板】导航页。
 
-![导航栏](img/index/home.png)
+![导航栏](img/index/home2.png)
 
 
 !!! Tip ""
@@ -88,7 +88,7 @@
 !!! Tip ""
     Cordys CRM 现代化的使用体验，灵活可配置的表单、流程和权限，轻松助力企业实现销售自动化。 以 admin 用户登录后，进入【系统管理】→【模块设置】 可以快速自定义业务相关的表单，
 
-![表单配置](img/index/module.png)
+![表单配置](img/index/module2.png)
  
 
 

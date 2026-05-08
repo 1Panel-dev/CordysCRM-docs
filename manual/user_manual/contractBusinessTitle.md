@@ -4,12 +4,16 @@
 !!! Tip ""
 
     在左侧菜单点击【合同】，选择顶部工商抬头标签，进入工商抬头页面。
+    
+    用户可以「新建工商抬头」「导入工商抬头」或「导出工商抬头」。
+
 ![创建工商抬头](../img/user_manual/contractBusinessName02.png)
 
-!!! Tip ""
+
 
     用户可以「新建工商抬头」「导入工商抬头」或「导出工商抬头」。
-![工商列表](../img/user_manual/contractBusinessName12.png)
+
+[//]: # (![工商列表]&#40;../img/user_manual/contractBusinessName12.png&#41;)
 
 !!! Tip ""
 
@@ -19,7 +23,7 @@
 !!! Tip ""
 
     选择第三方，输入公司名称，会自动查询并带入公司相关信息。
-![创建工商抬头](../img/user_manual/contractBusinessName4.png)
+![创建工商抬头](../img/user_manual/contractBusinessName42.png)
 
 
 ## 2 工商抬头页面配置

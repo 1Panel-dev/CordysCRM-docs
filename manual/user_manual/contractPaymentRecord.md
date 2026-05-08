@@ -10,7 +10,7 @@
 !!! Tip ""
 
     用户可以「新建回款记录」「导入回款记录」或「导出回款记录」。
-![回款记录列表](../img/user_manual/contractPaymentRecord122.png)
+![回款记录列表](../img/user_manual/contractPaymentRecord12.png)
 
 ## 2 回款记录表单配置
 

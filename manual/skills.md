@@ -8,7 +8,7 @@
 !!! Tip ""
     推荐使用 [**1Panel**](https://1panel.cn/docs) 一键部署，过程简单且稳定：[**👉 快速开始**](https://openclaw.club/zh-cn/guides/quick-start)
 
-![OpenCLaw-1p](img/openclaw/1panel-docs.png)
+![OpenCLaw-1p](img/openclaw/1panel-docs2.png)
 
 !!! Tip ""
 
@@ -92,7 +92,7 @@
 
 ![agent](img/openclaw/weixin/1.png)
 
-![agent](img/openclaw/weixin/2.png)
+![agent](img/openclaw/weixin/22.png)
 
 !!! Tip ""
     选择以「长连接」方式创建，并获取Bot ID 和 Secret。

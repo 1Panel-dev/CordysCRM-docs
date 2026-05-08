@@ -8,7 +8,7 @@
     **2 登录** [钉钉管理后台](https://open-dev.dingtalk.com/) 并获取以下关键凭证：
     - 企业 ID（CorpID）
 
-![钉钉管理后台](../img/user_manual/dingtalk_bg.png)
+![钉钉管理后台](../img/user_manual/dingtalk_bg2.png)
 
 !!! Tip ""
 
@@ -16,7 +16,7 @@
     在钉钉管理后台应用开发页面选择企业内部应用-钉钉应用-创建自建应用，在应用列表页面点击更多，查看应用详情-应用凭证与基础信息，并获取以下关键凭证：
      - 创建应用
 
-![配置](../img/user_manual/dingtalk_app.png)
+![配置](../img/user_manual/dingtalk_app2.png)
 
 !!! Tip ""
 
@@ -25,7 +25,7 @@
          - 应用的 Client ID (应用id)
          - 应用的 Client Secret  (应用密钥)
 
-![配置](../img/user_manual/dingtalk_config.png)
+![配置](../img/user_manual/dingtalk_config2.png)
 
 !!! Tip ""
 
@@ -36,7 +36,7 @@
       - 通讯录管理-通讯录部门信息读取权限（同步组织结构）
       - 通讯录管理-成员信息读取权限（同步组织结构）
 
-![配置](../img/user_manual/dingtalk-settings.png)
+![配置](../img/user_manual/dingtalk-settings2.png)
 
 !!! Tip ""
 
@@ -44,7 +44,7 @@
       - 安全设置-服务器IP出口配置应用的"可信 IP 白名单"，确保调用 API 时不被拒绝, 配置回调 URL
       - 分享设置-配置回调 URL(用户免登录)
 
-![配置](../img/user_manual/dingtalk_app_config.png)
+![配置](../img/user_manual/dingtalk_app_config2.png)
 
 !!! Tip ""
 
@@ -61,7 +61,7 @@
             或  
             `https://login.dingtalk.com/oauth2/auth?redirect_uri=https://你的域名%2Fmobile&response_type=code&client_id=dingxxxxxxx&scope=openid&state=dddd&prompt=consent`
     
-![配置](../img/user_manual/dingtalk_net_work_settings.png)
+![配置](../img/user_manual/dingtalk_net_work_settings2.png)
 
 !!! Tip ""
 
@@ -71,7 +71,7 @@
             或  
             `https://login.dingtalk.com`
 
-![配置](../img/user_manual/dingtalk_net_work_config.png)
+![配置](../img/user_manual/dingtalk_net_work_config2.png)
 
 !!! Tip ""
 
