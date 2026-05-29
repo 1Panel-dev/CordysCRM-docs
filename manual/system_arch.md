@@ -1,12 +1,12 @@
 ## 1 整体架构
 
-!!! Abstract ""
+!!! Tip ""
 
 ![整体架构](./img/index/system-arch.png){ width="900px" }
 
 ## 2 技术栈
 
-!!! Abstract ""
+!!! Tip ""
     -  AI 智能体能力: [MaxKB](https://github.com/1Panel-dev/MaxKB)
     -  数据可视化能力: [DataEase](https://github.com/dataease/dataease)
     -  后端: [Spring Boot](https://spring.io/projects/spring-boot)

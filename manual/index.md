@@ -2,30 +2,23 @@
 
 !!! Tip ""
 
-    Cordys CRM 新一代的开源 AI CRM 系统，是集信息化、数字化、智能化于一体的「客户关系管理系统」，由飞致云匠心出品。
-    
-    Cordys（/ˈkɔːrdɪs/）由“Cord”（连接之绳）与“System”（系统）融合而成，寓意“关系的纽带系统”，诠释了 CRM 的本质：连接客户，缔造长期价值。
+    Cordys CRM 是新一代的开源 AI CRM 系统，是集信息化、数字化、智能化于一体的「客户关系管理系统」，由 [飞致云](https://fit2cloud.com/) 匠心出品。
+
+    Cordys CRM 能够帮助企业实现从线索到回款（L2C）的全流程精细化管理，覆盖线索获取、智能分配、客户与联系人管理、商机跟进、合同签约及回款执行，构建端到端的销售运营闭环。
 
 
 ## 1 整体架构 
 
-![功能架构](https://resource.fit2cloud.com/1panel/cordys-crm/img/overview-20251103.png)
+![功能架构](https://cordys.cn/images/cordyscrm-202603.png)
 
 ## 2 产品优势 
 
-!!! Tip "" 
+!!! Tip ""
 
-    - **灵活易用**      
-      基于现代化技术栈构建，使用体验好；平台支持基于角色的权限管控，提供灵活的模块化配置，可无缝集成企业微信、钉钉、飞书等主流办公平台，实现高效协同；
-
-    - **安全可控**    
-      私有化部署，所有客户数据与业务信息均存储于企业自有服务器，数据主权完全自主，同时便于深度集成与二次开发；
-
-    - **BI 加持**      
-      融合 [DataEase](https://github.com/dataease/dataease) 与 [SQLBot](https://github.com/dataease/SQLBot) 的强大能力，实现销售数据可视化呈现、自助分析，以及基于自然语言的智能查询与归因分析；
-
-    - **AI 加持**    
-      开放 MCP Server，借助 [MaxKB](https://github.com/1Panel-dev/MaxKB) 强大的智能体开发能力，轻松构建智能创建、智能跟进、智能报价等多样化智能体。
+    - **灵活配置 · 高效协同**：现代化架构，操作简洁流畅；精细权限与模块化配置，无缝集成主流办公平台，赋能团队高效协同；
+    - **安全自主 · 深度可控**：私有化部署，数据100%自主可控；开放API与标准接口，支持深度集成与定制开发，筑牢安全与发展基石；
+    - **智能 BI · 决策赋能**：深度融合 DataEase 分析引擎，销售数据可视化呈现；支持自助探索与实时洞察，驱动精准决策与业绩增长；
+    - **AI 赋能 · 智能提效**：开放 CRM Skills 接口，赋能 OpenClaw AI 销售助理 7×24 小时智能服务；提升销售全流程效率与决策质量。
 
 ## 3 界面展示
 
@@ -47,7 +40,7 @@
 
 ## 4 视频介绍
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115496452164030&bvid=BV1Wm1sB4ExL&cid=33722466438&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115496452164030&bvid=BV1Wm1sB4ExL&cid=33722466438&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500px"></iframe>
 
 
 ## 5 主要功能
@@ -61,7 +54,8 @@
     - 仪表板：支持嵌入第三方仪表板工具，如 DataEase、SQLBot 等主流 BI 平台，通过可视化方式展示关键业务数据和客户相关信息模块。
     - 智能体：支持嵌入企业级 AI 智能体平台 MaxKB，基于 CRM 数据创建高效智能体应用， 如智能创建（线索/客户/商机/联系人）、智能录入（跟进记录）、智能查重等。
     - 系统管理：包含组织架构、角色权限、模块设置、消息管理、企业设置以及系统日志功能。
-
+    - 合同管理：用于管理合同履约与回款相关数据，涵盖回款计划、回款记录、工商抬头及发票记录等子模块，支持合同回款节点管理、资金回收跟踪及开票信息维护，确保合同执行过程在 CRM 中闭环、可追溯。
+    - 订单管理：用于管理合同履约执行数据，关联合同信息，覆盖订单创建、交付、验收与收款环节，支持履约进度跟踪与状态同步，保障业务执行规范可追溯。
 ## 6  了解更多
 
 !!! Tip ""

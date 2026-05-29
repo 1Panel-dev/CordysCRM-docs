@@ -1,12 +1,12 @@
 # 云市场部署指南
 
-!!! Abstract ""
+!!! Tip ""
 
     本指南将介绍如何通过阿里云云市场购买、部署和使用 **Cordys CRM** 。
 
 ## 1 购买镜像
 
-!!! Abstract ""
+!!! Tip ""
 
     - Cordys CRM 已经上架到阿里云云市场，您可以通过以下链接直接购买镜像：
     [Cordys CRM 云市场购买链接](https://market.aliyun.com/detail/cmjj00071934)
@@ -18,7 +18,7 @@
 
 ## 2 启动服务
 
-!!! Abstract ""
+!!! Tip ""
 
     镜像启动后，您可以通过浏览器访问以下地址登录 Cordys CRM：
 
@@ -32,7 +32,7 @@
 
 ## 3 开放端口
 
-!!! Abstract ""
+!!! Tip ""
 
     - 为了确保外部能够正常访问 Cordys CRM 服务，您需要在阿里云服务器的安全组规则中开放 `8081` 端口。
 

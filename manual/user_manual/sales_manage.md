@@ -1,127 +1,127 @@
-## 线索
 
-### 新建线索
+## 1 线索
 
-!!! Abstract ""
+### 1.1 新建线索
+
+!!! Tip ""
 
     在左侧菜单点击【线索】，进入线索管理页面。
 
-![线索管理页面](../img/user_manual/leads-page.png)
+![线索管理页面](../img/user_manual/leads-page2.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     用户可以「新建线索」或快捷「导入线索」。
 
-![新建线索](../img/user_manual/create-lead.png)
+![新建线索](../img/user_manual/create-lead2.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **提示**：线索表单可以根据公司业务特性在表单设置中进行自定义。
 
-![线索表单设置](../img/user_manual/lead-form-settings.png)
+![线索表单设置](../img/user_manual/lead-form-settings2.png)
 
-### 线索转换
-!!! Abstract ""
+### 1.2 线索转换
+!!! Tip ""
 
     选择线索，点击「转换」，可以快捷将线索转换成客户/商机。
 
-![线索转换](../img/user_manual/convert-lead.png)
+![线索转换](../img/user_manual/convert-lead2.png)
 
-### 线索转为客户
+### 1.3 线索转为客户
 
-!!! Abstract ""
+!!! Tip ""
 
     在线索详情中，点击「转换」，即可将线索一键转为客户。
     
     **注意**：转客户的线索不会展示在线索列表中。
 
-![线索转换](../img/user_manual/image-20250918114641384.png)
+![线索转换](../img/user_manual/image-202509181146413842.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     线索转客户需管理员在“客户表单设置”中配置好表单联动，即可将线索信息快捷填充到客户表单。
 
-![线索转客户](../img/user_manual/image-20250918113810902.png)
+![线索转客户](../img/user_manual/image-202509181138109022.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     管理员进入【系统-模块设置】，点击「客户表单设置」，进入「表单属性」，设置表单联动。
 
-![客户表单设置](../img/user_manual/image-20250918114122155.png)
+![客户表单设置](../img/user_manual/image-202509181141221552.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     配置好线索表单字段与客户表单字段的映射关系，在进行「线索转客户」操作时即可一键填充相应信息。
 
 ![客户表单联动](../img/user_manual/image-20250918114143362.png)
+ 
 
-## 
+## 2 客户
 
-## 客户
+### 2.1 新建客户
 
-### 新建客户
-
-!!! Abstract ""
+!!! Tip ""
 
     在左侧菜单点击【客户】，进入客户管理页面，用户可以：
      
      - 「新建客户」
      - 快捷「线索转为客户」
 
-![客户管理](../img/user_manual/customer-management.png)
+![客户管理](../img/user_manual/customer-management2.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **提示**：客户表单可以根据公司业务特性在表单设置中进行自定义。
 
-![客户表单设置](../img/user_manual/customer-form-settings.png)
+![客户表单设置](../img/user_manual/customer-form-settings2.png)
 
-### 合并客户
+### 2.2 合并客户
 
-!!! Abstract ""
+!!! Tip ""
 
     在左侧菜单点击【客户】，进入客户管理页面。
 
-![客户合并](../img/user_manual/merge-customers1.png)
+![客户合并](../img/user_manual/merge-customers12.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     用户需要先「选中客户」然后在隐藏的按钮中选择「合并客户」。
 
-![选择客户](../img/user_manual/merge-customers4.png)
+![选择客户](../img/user_manual/merge-customers42.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     :warning: **注意:** 需要确认,「合并后，数据不可回退」。
 
-![二次确认](../img/user_manual/merge-customers2.png)
+![二次确认](../img/user_manual/merge-customers22.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     用户需要选择，合并至「已选客户」或者「其他客户」然后选择合并后的客户负责人。
 
-![选择人员](../img/user_manual/merge-customers3.png)
+![选择人员](../img/user_manual/merge-customers32.png)
 
-## 商机
+## 3 商机
 
-### 新建商机
+### 3.1 新建商机
 
-!!! Abstract ""
+!!! Tip ""
 
     在左侧菜单点击【商机】，进入商机管理页面，用户可以：
     
      - 「新建商机」
      - 快捷「线索转为商机」
 
-![商机管理](../img/user_manual/opportunity-management.png)
+![商机管理](../img/user_manual/opportunity-management2.png)
 
 
-### 跟进商机
-!!! Abstract ""
+### 3.2 跟进商机
+!!! Tip ""
 
     点击商机名称或「跟进」按钮，进入商机详情页面。
 
-!!! Abstract ""
+!!! Tip ""
 
     用户可以根据跟进情况进行以下操作：
     
@@ -129,11 +129,11 @@
     - 录入当前商机的「跟进记录」
     - 添加「跟进计划」
 
-![商机跟进](../img/user_manual/follow-opportunity.png)
+![商机跟进](../img/user_manual/follow-opportunity2.png)
 
-### 商机看板
+### 3.3 商机看板
 
-!!! Abstract ""
+!!! Tip ""
 
     点击看板icon进入「商机看板」视图。
     
@@ -141,17 +141,17 @@
     - 商机视图均支持列表和看板两种模式查看
     - 修改商机阶段或商机赢率可进入[模块配置-商机阶段设置]调整
 
-![商机看板](../img/user_manual/opportunity_Dashboard.png)
+![商机看板](../img/user_manual/opportunity_Dashboard2.png)
 
-### 商机图表
+### 3.4 商机图表
 
-!!! Abstract ""
+!!! Tip ""
 
     点击视图右侧的数据分析icon，进入商机数据分析。
 
-![商机分析](../img/user_manual/opportunity_Analysis.png)
+![商机分析](../img/user_manual/opportunity_Analysis2.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     进入当前视图的数据分析页。
     
@@ -159,19 +159,19 @@
     - 数据指标支持计数、求和、平均三种汇总方式
     - 生成的图表支持全屏展示和下载保存
 
-![商机分析](../img/user_manual/opportunity_Data_Analysis.png)
+![商机分析](../img/user_manual/opportunity_Data_Analysis2.png)
 
-## 报价单
+## 4 报价单
 
-### 报价单表单设置
+### 4.1 报价单表单设置
 
-!!! Abstract ""
+!!! Tip ""
 
     在左侧菜单点击【系统-模块配置】，点击报价单表单设置。
 
-![image-20251210171102653](../img/user_manual/quote-setting.png)
+![报价单表单设置](../img/user_manual/quote-setting2.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **报价单表单设置**：
     
@@ -179,14 +179,15 @@
     - 配置属性：在右侧字段属性面板修改字段的基本信息、约束、权限等
     - 调整布局：在表单属性中修改整体表单布局
     
-    **报价表格** 字段：
+    **报价表格字段** ：
+
     - 支持从左侧选择字段拖拽到表格区域
     - 支持设置表格汇总
     - 支持固定表格列
 
 ![image-20251210171349238](../img/user_manual/quote-setting1.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     **报价表格-数据源字段**：
     
@@ -195,26 +196,28 @@
     - **显示字段**：设置选择产品时，同步显示关联的字段，依次展示在表格列中
     
     **报价表格-产品定价的三种配置方式**：
+
     - 在报价表中添加”产品定价“自定义字段，手动录入产品价格
     - 在产品模块中维护产品价格，通过产品数据源的显示字段属性，勾选产品定价带入到当前表格展示
     - 在价格表中维护产品价格，通过价格表数据源的显示自动属性，勾选产品定价带入到当前表格展示，根据选择的产品动态获取价格
     
     **报价表格-计算（金额）字段**：
+
     - 选择当前表格可参与计算的字段（数字类型）
     - 通过运算符组成完成公式
 
-![image-20251210173818179](../img/user_manual/quote-setting2.png)
+![image-20251210173818179](../img/user_manual/quote-setting22.png)
 
-![image-20251210174053658](../img/user_manual/quote-setting3.png)
+![image-20251210174053658](../img/user_manual/quote-setting32.png)
 
-### 新建报价单
+### 4.2 新建报价单
 
-!!! Abstract ""
+!!! Tip ""
     
 
     “新建报价单” 用于快速生成客户所需的产品报价明细，支持关联商机、选择产品并根据价格表自动计算金额，是销售对接客户的核心工具。
     
-    ### 操作步骤
+    **操作步骤：**
     
     - 步骤 1：进入 “新建报价单” 页面
     
@@ -237,27 +240,27 @@
     - 步骤 4：确认并保存
       
 
-![image-20251210181046171](../img/user_manual/quote-create.png)
+![image-20251210181046171](../img/user_manual/quote-create12.png)
 
 ![image-20251210180901273](../img/user_manual/quote-create2.png)
 
-### 审批报价单
+### 4.3 审批报价单
 
-!!! Abstract ""
+!!! Tip ""
 
     **报价单审批**：系统内置简易审批流，拥有报价单审批权限的用户可以审批报价单。
     
     - 报价单状态：撤销、提示、通过、未通过、作废
-    - 报价单创建成功后为**提审** 状态，报价单信息为创建时的快照信息，提审状态下不允许修改报价单
-    - 用户可以**撤销** 提审状态的报价单进行重新编辑，编辑报价单时动态获取最新报价单信息
-    - 拥有审批权限的用户可以**通过/不通过** 报价单，系统会推送审批结果给报价单创建人
-    - 审批**通过** 的报价单支持**下载** PDF
+    - 报价单创建成功后为 **提审** 状态，报价单信息为创建时的快照信息，提审状态下不允许修改报价单
+    - 用户可以 **撤销** 提审状态的报价单进行重新编辑，编辑报价单时动态获取最新报价单信息
+    - 拥有审批权限的用户可以 **通过/不通过** 报价单，系统会推送审批结果给报价单创建人
+    - 审批 **通过** 的报价单支持 **下载** PDF
 
-![image-20251210182716977](../img/user_manual/quote-approval.png)
+![image-20251210182716977](../img/user_manual/quote-approval2.png)
 
-### 管理报价单
+### 4.4 管理报价单
 
-!!! Abstract ""
+!!! Tip ""
 
     报价单列表支持以下功能：
     
@@ -265,21 +268,21 @@
     - 拥有审批权限的用户支持批量审批报价单
     - 拥有作废权限的用户支持批量作废报价单
 
-![image-20251210183633044](../img/user_manual/quote-approval 1.png)
+![image-20251210183633044](../img/user_manual/quote-approval 12.png)
 
-## 活动记录
+## 5 活动记录
 
-!!! Abstract ""
+!!! Tip ""
 
     在右上方菜单按钮中点击「活动记录功能」按钮。
-![活动顶部入口](../img/user_manual/activitylog1.png)
+![活动顶部入口](../img/user_manual/activitylog12.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     可以按客户维度查看，创建完成的「跟进记录」或「跟进计划」。
 ![活动记录列表](../img/user_manual/activitylog3.png)
 
-!!! Abstract ""
+!!! Tip ""
 
     点击「详情」按钮，可以查看「跟进记录」或「跟进计划」的详细信息。
-![活动记录详情](../img/user_manual/activitylog2.png)
+![活动记录详情](../img/user_manual/activitylog22.png)

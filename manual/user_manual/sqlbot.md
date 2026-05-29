@@ -1,15 +1,15 @@
 
-## 安装 SQLBot
+## 1 安装 SQLBot
 
-!!! Abstract ""
+!!! Tip ""
 
     SQLBot 的安装教程请参考：[SQLBot 操作手册](https://dataease.cn/sqlbot/)
 
-## 添加 SQLBot 应用
+## 2 添加 SQLBot 应用
 
-### 创建应用
+### 2.1 创建应用
 
-!!! Abstract ""
+!!! Tip ""
 
     1. 登录 SQLBot
     2. 点击【系统管理】>【嵌入式管理】
@@ -19,9 +19,9 @@
 
 ![创建 SQLBot 应用](../img/user_manual/sqlbot-create-app.png)
 
-### 配置接口
+### 2.2 配置接口
 
-!!! Abstract ""
+!!! Tip ""
 
     - **接口地址**：填写 Cordys CRM 的部署地址，如 `http://CordysCRM-URL/db/structure` 
 
@@ -36,9 +36,9 @@
 
 :warning: **注意:** 如果在问数过程中出现 401 错误，请检查上图这几个参数是否一致。
 
-## 开放 Cordys CRM 的数据库端口
+## 3 开放数据库端口
 
-!!! Abstract ""
+!!! Tip ""
 
     为了确保 SQLBot 能够正常访问 Cordys CRM 的数据库，必须确保数据库端口对 SQLBot 可用。通过以下方式进行安装时，数据库端口并未暴露：
 
@@ -48,9 +48,9 @@
 
     在集成 SQLBot 之前，请确认已开放数据库端口，以便 SQLBot 能够成功连接并执行查询操作。 
 
-## Cordys CRM 中配置应用
+## 4 Cordys CRM 中配置应用
 
-!!! Abstract ""
+!!! Tip ""
 
     1. 登录 Cordys CRM 系统
     2. 进入【系统】>【企业设置】>【三方设置】
@@ -58,9 +58,9 @@
 
 ![Cordys CRM 配置](../img/user_manual/cordys-sqlbot-config.png)
 
-### 验证配置
+### 4.1 验证配置
 
-!!! Abstract ""
+!!! Tip ""
 
     配置完成后：
 

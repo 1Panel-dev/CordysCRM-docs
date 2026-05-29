@@ -57,7 +57,7 @@
     登录 Cordys CRM 从左下角 【 个人中心 - API Keys 】中获取 Access Key 和 Secret Key
 
 
-![APIKeys](img/index/api_keys.png)
+![APIKeys](img/index/api_keys2.png)
 
 
 !!! Tip ""
@@ -139,7 +139,7 @@
 
 ###  4.1 MaxKB 集成示例
 
-![agent](img/mcp/agent_mcp.png)
+![agent](img/mcp/agent_mcp2.png)
 
 
 !!! Tip ""
@@ -173,12 +173,12 @@
 !!! Tip ""
     方式一：Cordys CRM 智能查询效果
 
-![智能查询客户](../img/user_manual/agent-query-customer.png)
+![智能查询客户](../img/user_manual/agent-query-customer2.png)
 
 !!! Tip ""
     方式二：Cordys CRM 智能添加效果
 
-![智能创建线索](../img/user_manual/agent-Create-lead.png)
+![智能创建线索](../img/user_manual/agent-Create-lead2.png)
 
 ###  4.2 开发工具 TRAE 集成示例
 

@@ -1,19 +1,19 @@
 
-## 企业微信配置
+## 1 企业微信配置
 
-!!! Abstract ""
+!!! Tip ""
 
-    #### 1. 企业微信管理员权限
+    **1 企业微信管理员权限**
 
     需要使用“企业微信管理员账号”（或具有通讯录管理权限的子管理员），普通成员账号没有权限创建应用或同步通讯录。
 
-    #### 2. 登录 [企业微信管理后台](https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome) 
+    **2 登录** [企业微信管理后台](https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome) 
 
 ![企业微信管理后台](../img/user_manual/wecom_bg.png)
 
-!!! Abstract ""
+!!! Tip ""
 
-    #### 3. 配置通讯录 API 权限
+    **3 配置通讯录 API 权限**
 
       在企业微信后台为应用开启"通讯录读写权限"。常见需要的权限包括：
 
@@ -22,9 +22,9 @@
 
 ![配置](../img/user_manual/wecom-settings.png)
 
-!!! Abstract ""
+!!! Tip ""
 
-    #### 4. 创建应用并获取凭证
+    **4 创建应用并获取凭证**
 
     在企业微信管理后台创建自建应用或"第三方应用"，并获取以下关键凭证：
 
@@ -35,9 +35,9 @@
 ![配置](../img/user_manual/wecom_app.png)
 ![配置](../img/user_manual/wecom_app_create.png)
 
-!!! Abstract ""
+!!! Tip ""
 
-    #### 5. 安全配置
+    **5 安全配置**
 
       - 配置应用的"可信 IP 白名单"，确保调用 API 时不被拒绝
       - 部署 HTTPS 服务
@@ -45,7 +45,7 @@
 
 ![配置](../img/user_manual/wecom_app_config.png)
 
-!!! Abstract ""
+!!! Tip ""
 
      **域名归属认证说明**
 
@@ -79,9 +79,9 @@
 
 ![配置](../img/user_manual/wecom_app_domain.png)
 
-!!! Abstract ""
+!!! Tip ""
 
-    #### 5. 数据准备
+    **5 数据准备**
 
       确认外部系统中的部门、成员数据字段与企业微信字段对应：
 
@@ -94,15 +94,15 @@
     - 如果要使用 【组织架构同步】和【OAuth2 认证】功能 Cordys CRM 部署地址必须是可信域名，不能使用 IP 地址或自己做的内网穿透地址。
 
 
-## Cordys CRM 配置同步组织架构
+## 2 Cordys CRM 配置同步组织架构
 
-### 配置企业微信信息
+### 2.1 配置企业微信信息
 
-![开启同步开关示意图](../img/user_manual/wecom-enable.png)
+![开启同步开关示意图](../img/user_manual/wecom-enable2.png)
 
-### 同步企业微信组织架构
+### 2.2 同步企业微信组织架构
 
-!!! Abstract ""
+!!! Tip ""
 
     1. 点击【系统】菜单，进入【组织架构】页面
     2. 点击「更多」按钮下的「企业微信同步」选项，系统将自动触发同步流程
@@ -110,11 +110,11 @@
 
     **后续维护说明**：当企业微信中新增成员或调整组织架构后，只需重复执行上述「企业微信同步」操作，即可完成最新组织架构的更新。
 
-![同步组织架构](../img/user_manual/wecom-sync.png)
+![同步组织架构](../img/user_manual/wecom-sync2.png)
 
-!!! Abstract ""
+!!! Tip ""
 
-    #### 重要提醒：
+     **重要提醒：**
 
        - 获取成员详情接口（user/get）从 2025 年 6 月 20 日 20:00 起，所有新创建的自建应用和代开发应用在调用 `user/get` 接口时，将不再返回头像、性别、手机号、邮箱、企业邮箱、地址等敏感字段。只有通过 OAuth2 授权流程，并获得管理员以及成员本人授权后，才能获取完整信息。  
 
@@ -122,7 +122,7 @@
          
       👉 官方文档：[通讯录同步](https://developer.work.weixin.qq.com/document/path/91039)
 
-## 企业微信工作台访问 Cordys CRM
+## 3 企业微信工作台访问 Cordys CRM
 
-![工作台访问](../img/user_manual/wecom_workbench.png)
-![移动端界面](../img/user_manual/wecom_workbench_main.png)
+![工作台访问](../img/user_manual/wecom_workbench2.png)
+![移动端界面](../img/user_manual/wecom_workbench_main2.png)
