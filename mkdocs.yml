@@ -62,6 +62,7 @@ nav:
               - 发票记录: user_manual/contractInvoice.md
               - 工商抬头: user_manual/contractBusinessTitle.md
         - 销售订单管理: user_manual/order.md
+        - 审批流: user_manual/approval_flow.md
         - 系统设置:
             - 组织架构配置: user_manual/org_manage.md
             - 角色权限配置: user_manual/role_permission.md
