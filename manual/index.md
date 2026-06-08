@@ -6,6 +6,8 @@
 
     Cordys CRM 能够帮助企业实现从线索到回款（L2C）的全流程精细化管理，覆盖线索获取、智能分配、客户与联系人管理、商机跟进、合同签约及回款执行，构建端到端的销售运营闭环。
 
+    关于 Cordys CRM 的理念和定位，可进一步阅读这篇文章： [中国 CRM 市场的前世今生，以及 Cordys CRM 如何以「开源+AI」改变游戏规则](https://cordys.cn/blog/china-crm-market-analysis.html)。
+
 ## 1 整体架构 
 
 ![功能架构](https://cordys.cn/images/cordyscrm-202606.png)
