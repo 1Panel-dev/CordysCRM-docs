@@ -53,7 +53,7 @@
 
 !!! Tip ""
 
-    📌 提示：确保已正确安装 JDK 21 和 Maven 3.8.6 及以上版本和环境。
+    **提示：**确保已正确安装 JDK 21 和 Maven 3.8.6 及以上版本和环境。
 
     执行以下命令构建后端模块（如 `framework`、`crm`、`app` 等）并安装到本地仓库：
 
@@ -62,8 +62,8 @@
     ```
     参数说明：
     
-    * `-DskipTests`: 跳过测试用例执行。
-    * `-DskipAntRunForJenkins`: 跳过 Jenkins 使用的 Ant 任务。
+    * `-DskipTests`: 跳过测试用例执行
+    * `-DskipAntRunForJenkins`: 跳过 Jenkins 使用的 Ant 任务
 
 ### 3.1  后端参数配置说明
 
@@ -75,7 +75,7 @@
     /opt/cordys/conf/cordys-crm.properties
 
     ```
-    💡 **提示：**
+    **提示：**
     你也可以通过修改应用 ‘Application’ 启动参数，自定义配置文件的加载路径。
 
 ### 3.2 配置示例
@@ -119,7 +119,7 @@
 
 !!! Tip ""
 
-     📌 提示：确保已正确安装 Node.js 和依赖环境。
+     **提示：**确保已正确安装 Node.js 和依赖环境。
 
 ### 4.1 工程初始化&运行
 !!! Tip ""
