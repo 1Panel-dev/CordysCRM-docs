@@ -44,7 +44,7 @@
 
     Cordys CRM 安装目录、服务运行端口、数据库配置等信息可在安装包解压后中的 install.conf 文件进行配置。
 
-    :warning: **注意:** 这部分参数仅限于离线包安装使用，在线安装请参考[**在线一键安装**](../installation/online_installtion.md/#_2) 文档。
+    **注意:** 这部分参数仅限于离线包安装使用，在线安装请参考[**在线一键安装**](../installation/online_installtion.md/#_2) 文档。
 
     ```
     # 基础配置
