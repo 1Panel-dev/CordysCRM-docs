@@ -92,7 +92,7 @@
 
 !!! Tip ""
 
-    :warning: **注意:** 需要确认,「合并后，数据不可回退」。
+    **注意: 需要确认,「合并后，数据不可回退」。** 
 
 ![二次确认](../img/user_manual/merge-customers22.png)
 
