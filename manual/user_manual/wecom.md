@@ -88,7 +88,7 @@
       - 部门 ID、父部门 ID、部门名称
       - 成员账号（userid）、姓名、职位
 
-      :warning: **注意**：
+      **注意**：
 
     - 手机号、邮箱等敏感字段默认不会在组织架构同步中返回，如需获取需额外授权；
     - 如果要使用 【组织架构同步】和【OAuth2 认证】功能 Cordys CRM 部署地址必须是可信域名，不能使用 IP 地址或自己做的内网穿透地址。
@@ -120,7 +120,7 @@
 
        - 同步通讯录接口仅返回组织架构和成员基础信息，不会包含手机号、邮箱等敏感字段。  
          
-      👉 官方文档：[通讯录同步](https://developer.work.weixin.qq.com/document/path/91039)
+       官方文档：[通讯录同步](https://developer.work.weixin.qq.com/document/path/91039)
 
 ## 3 企业微信工作台访问 Cordys CRM
 
