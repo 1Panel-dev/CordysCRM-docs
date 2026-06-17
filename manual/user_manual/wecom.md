@@ -120,7 +120,7 @@
 
        - 同步通讯录接口仅返回组织架构和成员基础信息，不会包含手机号、邮箱等敏感字段。  
          
-       官方文档：[通讯录同步](https://developer.work.weixin.qq.com/document/path/91039)
+    官方文档：[通讯录同步](https://developer.work.weixin.qq.com/document/path/91039)
 
 ## 3 企业微信工作台访问 Cordys CRM
 
