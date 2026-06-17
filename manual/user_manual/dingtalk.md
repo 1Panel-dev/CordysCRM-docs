@@ -111,7 +111,8 @@
 
     **重要提醒：**
        - 所有钉钉配置均需要应用发布成功后生效
-      👉 钉钉官方文档：[通讯录同步](https://open.dingtalk.com/document/orgapp/contacts-overview)
+
+    钉钉官方文档：[通讯录同步](https://open.dingtalk.com/document/orgapp/contacts-overview)
       
 ![发布应用](../img/user_manual/dingtalk_public2.png)
 
