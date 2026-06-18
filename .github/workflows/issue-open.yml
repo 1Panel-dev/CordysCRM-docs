@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add labels
-        uses: actions-cool/issues-helper@v2
+        uses: actions-cool/issues-helper@v4
         if: ${{ !github.event.issue.pull_request }}
         with:
           actions: 'add-labels'
