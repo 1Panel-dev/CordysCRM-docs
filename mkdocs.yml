@@ -79,7 +79,7 @@ nav:
         - MCP 服务开放: mcp_server.md            
     - 体验环境: trial.md
     - 联系我们: contact.md
-    - 企业版: enterprise.md
+    - 商业版本: enterprise.md
     
 markdown_extensions:
     - admonition
