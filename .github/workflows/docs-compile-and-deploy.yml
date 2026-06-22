@@ -48,4 +48,4 @@ jobs:
             rm -rf /opt/cordys/docs/*
             mv /tmp/site/* /opt/cordys/docs
             /usr/local/nginx/sbin/nginx -s reload
-            rm -rf /tmp/site*
+            #rm -rf /tmp/site*
