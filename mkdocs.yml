@@ -52,6 +52,7 @@ nav:
         - 阿里云安装: installation/aliyun.md
         - 命令行工具: installation/cli.md
         - 源码运行: source_run.md
+        - 安装常见问题: installation/faq.md
     - 功能手册:
         - 销售流程管理: user_manual/sales_manage.md
         - 产品资料录入: user_manual/product_entry.md
@@ -67,18 +68,17 @@ nav:
             - 角色权限配置: user_manual/role_permission.md
             - 业务表单配置: user_manual/form_config.md
             - 审批流配置: user_manual/approval_flow.md
-        - MCP 服务: mcp_server.md
         - 企业协同配置:
               - 企业微信集成配置: user_manual/wecom.md
               - 钉钉系统集成配置: user_manual/dingtalk.md
               - 飞书系统集成配置: user_manual/lark.md
-        - 移动端访问说明: user_manual/mobile.md
-    - BI 集成:
-        - 集成 DataEase 进行数据分析: user_manual/dataease.md
-    - Skills 集成:
-        - 集成到 WorkBuddy: skill/workbuddy.md
-        - 集成到 OpenClaw: skill/openclaw.md
-    - 常见问题: installation/faq.md
+        - 移动端访问指南: user_manual/mobile.md
+        - BI 集成指南:
+            - 集成 DataEase 进行数据分析: user_manual/dataease.md
+        - Skills 集成指南:
+            - 集成到 WorkBuddy: skill/workbuddy.md
+            - 集成到 OpenClaw: skill/openclaw.md
+        - MCP 服务开放: mcp_server.md            
     - 体验环境: trial.md
     - 联系我们: contact.md
     - 企业版: enterprise.md
