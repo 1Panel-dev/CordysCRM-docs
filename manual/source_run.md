@@ -2,10 +2,6 @@
 
 !!! Tip ""
 
-    请使用 v1.3.0 等已发布分支的代码运行 **Cordys CRM** 。请勿使用 main 分支，main 分支代码均处于开发或测试阶段，可能存在较明显功能缺陷。   
-
-!!! Tip ""
-
     目前支持的源码运行环境有： Windows (x86)、Linux（x86 & arm64）、MacOS（x86 & arm64）。
 
 ## 1 项目结构
@@ -246,3 +242,14 @@
     A：可以在 `cordys-crm.properties` 文件中添加或修改：
 
         server.port=8081
+
+## 7 开源协议
+
+本仓库遵循 [FIT2CLOUD Open Source License](https://github.com/1Panel-dev/CordysCRM/blob/main/LICENSE) 开源协议，该许可证本质上是 GPLv3，但有一些额外的限制。
+
+你可以基于 Cordys CRM 的源代码进行二次开发，但是需要遵守以下规定：
+
+- 不能替换和修改 Cordys CRM 的 Logo 和版权信息；
+- 二次开发后的衍生作品必须遵守 GPL V3 的开源义务。
+
+如需商业授权，请联系：`support@fit2cloud.com`。
