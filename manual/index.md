@@ -8,6 +8,8 @@
 
     关于 Cordys CRM 的理念和定位，可进一步阅读这篇文章： [中国 CRM 市场的前世今生，以及 Cordys CRM 如何以「开源+AI」改变游戏规则](https://cordys.cn/blog/china-crm-market-analysis.html)。
 
+    关于 AI CRM 的落地，可进一步阅读这篇文章：[飞致云 AI CRM 实战：Cordys × WorkBuddy 赋能百人销售团队](https://cordys.cn/blog/fit2cloud-ai-crm-case-study.html)
+
 ## 1 整体架构 
 
 ![功能架构](https://cordys.cn/images/cordyscrm-202606.png)
