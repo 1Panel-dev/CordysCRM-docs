@@ -12,7 +12,7 @@
 
 ## 1 整体架构 
 
-![功能架构](https://cordys.cn/images/cordyscrm-202606.png)
+![功能架构](https://cordys.cn/images/cordyscrm-202607.png)
 
 ## 2 产品优势 
 
