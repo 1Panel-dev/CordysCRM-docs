@@ -89,7 +89,22 @@
     Cordys CRM 现代化的使用体验，灵活可配置的表单、流程和权限，轻松助力企业实现销售自动化。 以 admin 用户登录后，进入【系统管理】→【模块设置】 可以快速自定义业务相关的表单，
 
 ![表单配置](img/index/module2.png)
- 
+
+## 4 安装 Cordys CRM Skill
+
+!!! Tip ""
+
+    仓库地址：https://github.com/1Panel-dev/CordysCRM-skills
+
+!!! Tip ""
+
+    在 WorkBuddy 技能市场，搜索 Cordys，直接安装。
+
+![WorkBuddy](./img/workbuddy/img_0.png)
+
+详细步骤参考 [**集成到 WorkBuddy**](./skill/workbuddy.md) 。
+
+
 
 
 
