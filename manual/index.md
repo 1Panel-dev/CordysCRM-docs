@@ -64,3 +64,4 @@
     - [了解飞致云](https://www.fit2cloud.com/) 
     - [飞致云开源社区论坛](https://bbs.fit2cloud.com/)
     - [产品 PPT 材料](https://cordys.cn/download/introduce-cordys_2026.pdf)
+    - [Cordys CRM 社区版和企业版的区别？](https://cordys.cn/blog/cordys-community-vs-enterprise.html)
