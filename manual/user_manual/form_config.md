@@ -342,6 +342,8 @@
 
 ![业务规则设置](../img/user_manual/Opportunity_Stage_Settings3.png)
 
+!!! Tip ""
+
     - 点击 + 或右上评论 弹出新建评论窗口（样式以交互为准），第一版评论使用多行文本， 无需支持富文本。
         - 新建评论 默认文案“输入评论，支持@他人”
         - 回复评论 默认文案“回复XX”
@@ -349,6 +351,8 @@
 
 ![业务规则设置](../img/user_manual/Opportunity_Stage_Settings4.png)
 ![业务规则设置](../img/user_manual/Opportunity_Stage_Settings5.png)
+
+!!! Tip ""
 
     - 评论展示
         - 评论默认按时间倒序排列
